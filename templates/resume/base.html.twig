@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ app.request.locale }}">
+<head>
+    <!-- Title -->
+    <title>{% block title %}{{ 'base.title'|trans({}, 'app') }}{% endblock %}</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="{{ 'base.description'|trans({}, 'app') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Icons -->
+    <link rel="manifest" href="{{ asset('manifest.json') }}">
+    <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
+    <!-- Google fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{ asset('node_modules/font-awesome/css/font-awesome.min.css') }}">
+    <!-- Material Design for Bootstrap -->
+    <link rel="stylesheet" href="{{ asset('node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.min.css') }}">
+    <!-- Snackbars -->
+    <link rel="stylesheet" href="{{ asset('node_modules/snackbarjs/dist/snackbar.min.css') }}">
+    <!-- Application -->
+    <link rel="stylesheet" href="{{ asset('stylesheets/app.css') }}">
+    <!-- Custom -->
+    {% block stylesheets %}{% endblock %}
+</head>
+<body>
+{% include "header.html.twig" %}
+{% block body %}{% endblock %}
+{% include "footer.html.twig" %}
+
+<!-- jQuery -->
+<script src="{{ asset('node_modules/jquery/dist/jquery.slim.min.js') }}"></script>
+<script src="{{ asset('node_modules/popper.js/dist/umd/popper.min.js') }}"></script>
+<!-- Snackbars -->
+<script src="{{ asset('node_modules/snackbarjs/dist/snackbar.min.js') }}"></script>
+<!-- Material Design for Bootstrap -->
+<script src="{{ asset('node_modules/bootstrap-material-design/dist/js/bootstrap-material-design.min.js') }}"></script>
+<script>
+  $(document).ready(function () {
+    $('body').bootstrapMaterialDesign();
+  });
+</script>
+{% if app.request.hasPreviousSession %}
+    {% for message in app.flashes('flash_msg') %}
+        <script>
+          $(document).ready(function () {
+            $.snackbar({
+              content: "{{ message|replace({'"':"'"}) }}", // text of the snackbar
+              timeout: 4000, // time in milliseconds after the snackbar autohides, 0 is disabled
+              htmlAllowed: true // allows HTML as content value
+            });
+          });
+        </script>
+    {% endfor %}
+{% endif %}
+<!-- Custom -->
+{% block javascripts %}{% endblock %}
+</body>
+</html>

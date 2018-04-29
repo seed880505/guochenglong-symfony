@@ -1,0 +1,59 @@
+base:
+  title: "Chenglong GUO site"
+  description: "Chenglong GUO site"
+
+cv:
+  firstname: "Chenglong"
+  lastname: "GUO"
+  fullname: "Chenglong GUO"
+  title: "IT Engineer - Web & Mobile Progress Apps Developer"
+  email: "guochenglong0505@gmail.com"
+  website: "https://guochenglong.com"
+  location: "Paris, France"
+  linkedin: "https://www.linkedin.com/in/chenglong-guo/"
+  github: "https://github.com/seed880505"
+  gist: "https://gist.github.com/seed880505"
+
+summary:
+  title: "Summary"
+  body: "An experienced full-stack web developer. Acquired knowledge during the whole process of project: specifications, designing, development, testing, maintenance."
+  btn:
+    dlcv: "Download CV"
+    contact: "Contact me"
+
+timeline:
+  exp:
+    title: "Experiences"
+    2016:
+      job: "Web Progress Apps Developer"
+      duration: "Nov 2016 - Present"
+      company: "PI ELECTRONIQUE"
+      summary: "Responsible for the evolution of Angular/Ionic mobile apps. Development of PHP Symfony platform."
+    2013:
+      job: "Full-stack Web Apps Developer"
+      duration: "Nov 2013 - Jun 2016"
+      company: "TANGRAM"
+      summary: "Development of database(MySQL)/back-end services(PHP Zend)/interface(ExtJS)."
+    2013b:
+      job: "Web Apps front-end Developer"
+      duration: "Feb 2013 - Aug 2013"
+      company: "SCALED RISK"
+      summary: "As an intern, developed the interface of web apps and Java web services."
+    2012:
+      job: "Web Apps back-end Developer"
+      duration: "Feb 2012 - Aug 2012"
+      company: "TICKET COM"
+      summary: "As an intern, developed the PHP CodeIgniter Platform."
+
+contact:
+  title: "CONTACT"
+  your_email: "Your e-mail"
+  your_email_tip: "We'll never share your email with anyone else."
+  your_subject: "Your subject"
+  your_message: "Your message"
+  your_cc: "CC to yourself"
+  send: "Send email"
+  success: "Your email has been sent successfully !"
+  failure: "An error occurred !"
+  last: "Previous"
+  next: "Next"
