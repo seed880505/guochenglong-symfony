@@ -3,7 +3,6 @@
 namespace App\Controller;
 
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Component\Routing\Annotation\Method;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
@@ -23,8 +22,7 @@ class ResumeController extends Controller
     }
 
     /**
-     * @Route("/contact/email", name="contact_email")
-     * @Method("POST")
+     * @Route("/contact/email", name="contact_email", methods={"POST"})
      * @param Request $request
      * @param \Swift_Mailer $mailer
      * @return \Symfony\Component\HttpFoundation\RedirectResponse

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="fr" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="cv.firstname">
+                <source>cv.firstname</source>
+                <target>成龙</target>
+            </trans-unit>
+            <trans-unit id="cv.lastname">
+                <source>cv.lastname</source>
+                <target>郭</target>
+            </trans-unit>
+            <trans-unit id="cv.fullname">
+                <source>cv.fullname</source>
+                <target>郭成龙</target>
+            </trans-unit>
+            <trans-unit id="cv.title">
+                <source>cv.title</source>
+                <target>渐进式web应用全栈开发工程师</target>
+            </trans-unit>
+            <trans-unit id="cv.email">
+                <source>cv.email</source>
+                <target>chenglong.guo@foxmail.com</target>
+            </trans-unit>
+            <trans-unit id="cv.website">
+                <source>cv.website</source>
+                <target>https://guochenglong.com</target>
+            </trans-unit>
+            <trans-unit id="cv.location">
+                <source>cv.location</source>
+                <target>法国，巴黎</target>
+            </trans-unit>
+            <trans-unit id="cv.blog">
+                <source>cv.blog</source>
+                <target>https://blog.guochenglong.com</target>
+            </trans-unit>
+            <trans-unit id="cv.linkedin">
+                <source>cv.linkedin</source>
+                <target>https://www.linkedin.com/in/chenglong-guo/</target>
+            </trans-unit>
+            <trans-unit id="cv.github">
+                <source>cv.github</source>
+                <target>https://github.com/seed880505</target>
+            </trans-unit>
+            <trans-unit id="cv.gist">
+                <source>cv.gist</source>
+                <target>https://gist.github.com/seed880505</target>
+            </trans-unit>
+            <trans-unit id="summary.title">
+                <source>summary.title</source>
+                <target>个人总结</target>
+            </trans-unit>
+            <trans-unit id="summary.body">
+                <source>summary.body</source>
+                <target>六年web开发经验，拥有后台、前台、渐进式应用的开发经验。参与过项目的需求、架构、开发、测试、交付与管理流程。喜欢寻找技术方案解决难题，善于与人沟通，乐于分享。</target>
+            </trans-unit>
+            <trans-unit id="summary.btn.dlcv">
+                <source>summary.btn.dlcv</source>
+                <target>下载简历</target>
+            </trans-unit>
+            <trans-unit id="summary.btn.contact">
+                <source>summary.btn.contact</source>
+                <target>联系我</target>
+            </trans-unit>
+            <trans-unit id="timeline.readmore">
+                <source>timeline.readmore</source>
+                <target>- 查看更多</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.title">
+                <source>timeline.exp.title</source>
+                <target>工作经历</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2016.job">
+                <source>timeline.exp.2016.job</source>
+                <target>渐进式web应用全栈开发工程师</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2016.duration">
+                <source>timeline.exp.2016.duration</source>
+                <target>2016年10月 - 2018年5月</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2016.company">
+                <source>timeline.exp.2016.company</source>
+                <target>PI Electronique 收银系统电子科技公司，法国巴黎</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2016.summary">
+                <source>timeline.exp.2016.summary</source>
+                <target>主要开发基于PHP7语言Symfony3框架下的后台服务，和基于TypeScript语言Angular5、Ionic框架下的渐进式web应用。</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2016.detail.title">
+                <source>timeline.exp.2016.detail.title</source>
+                <target>PI Electronique 收银系统电子科技公司，渐进式web应用与后台系统开发工程师</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2016.detail.body">
+                <source>timeline.exp.2016.detail.body</source>
+                <target><![CDATA[<p>PI是一个创立35年的法国本土收银机生产商，超过150名员工，主要业务是收银机生产、收银系统开发、客户云平台搭建，业务涉及法国、瑞士、卢森堡、澳大利亚。</p><ol><li>负责开发基于PHP框架Symfony的SaaS模式云平台前端web应用、后端模块：<ul><li>鉴于移动支付的便捷性和信用卡的普及性，PI决定为其收银系统开发一款配套的信用卡快捷支付系统。作为主要项目开发者，研发基于PHP7语言Symfony3框架下的后台模块，调取Stripe、PayPal等支付组件，建模Doctrine技术下MySQL数据库。项目难点在于协调多方同时对同一账单进行付款操作（分餐制）以及与收银系统同步确认收款。通过设计迭代算法和对付款阶段进行逐个标识，确保付款的准确性、安全性。通过创建PHPunit功能、单元测试，保证代码质量和代码重用。前台web应用结合谷歌Material design设计风格，利用Sass、Bootstrap等工具使界面简洁、高效。</li><li>为拓展收银系统的互联网特性，开发配套的web在线订餐功能。基于同样的前后端技术背景。</li><li>负责开发商店销售额即时统计应用，后台整合数据库数据，前台利用amCharts对数据进行可视化比对、图表图形展示。</li></ul></li><li>负责开发基于JS框架Angular5、Ionic的渐进式web应用：<ul><li>在原始会员卡积分系统基础上，开发适应于移动端的渐进式web应用，满足积分查看、信息修改、使用优惠券等需求，部署于Android、iOS、web浏览器，实现了单一代码适应所有主流平台的设计目的。为了达到平台兼容性和客户app个性化定制的目标，需要合理选择普适的web技术，以及高度兼容的代码架构、设计模式。通过对前端架构的深度思考和利用Angular5的优秀拓展性，逐个逐步攻破难关，达到项目设计目标。此应用附加消息通知(Push)、用户定位(Geofence)等推广功能，在移动端体验流畅，风格简洁，受到客户普遍欢迎。</li></ul></li>]]></target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2013.job">
+                <source>timeline.exp.2013.job</source>
+                <target>Web应用全栈开发工程师</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2013.duration">
+                <source>timeline.exp.2013.duration</source>
+                <target>2013年11月 - 2016年六月</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2013.company">
+                <source>timeline.exp.2013.company</source>
+                <target>TANGRAM 软件开发与咨询公司</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2013.summary">
+                <source>timeline.exp.2013.summary</source>
+                <target>主要开发基于PHP5语言Zend2框架下的后台服务，和基于JavaScript语言Sencha ExtJS框架下的web应用。</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2013.detail.title">
+                <source>timeline.exp.2013.detail.title</source>
+                <target>TANGRAM 软件开发与咨询公司，Web应用全栈开发工程师</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2013.detail.body">
+                <source>timeline.exp.2013.detail.body</source>
+                <target><![CDATA[<p>Tangram是一个创业公司，主要业务是承包大企业对SaaS软件开发的需求。</p><ol><li>负责为现代汽车(Hyundai)法国分部设计一款预算编辑软件，以SaaS方式交付使用。开发基于PHP5语言Zend2框架下，以SOAP协议为基准，连同MySQL数据库，处理后台业务的API模块，以及基于JS语言ExtJS框架下的前台web应用。此项目的前台逻辑要比后台更复杂，需要很多对数据的操作，例如对预算的可视化比对（通过amCharts实现）以及预算与日历的结合等。项目得到客户认可，并且获得了未来三年的续期订单。</li><li>负责为英瑞杰（plastic omnium），阿尔斯通（Alstom）等公司升级前台web应用(ExtJS框架)，结合我们已有的后台模块，实现对大企业内部多媒体资源的管理、分享、格式转换等操作。</li><li>协同开发基于PHP内容管理系统Joomla的门户网站开发，结合Bootstrap等前端工具制作Responsive设计风格界面。https://www.plasticomnium.com, pwik, SEO搜索引擎优化。</li><li>利用Appcelerator Titanium跨平台移动开发框架，为Alstom开发平板端的企业App。</li></ol>]]>
+                </target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2013b.job">
+                <source>timeline.exp.2013b.job</source>
+                <target>实习 - web前台开发</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2013b.duration">
+                <source>timeline.exp.2013b.duration</source>
+                <target>2013年二月 - 2013年8月</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2013b.company">
+                <source>timeline.exp.2013b.company</source>
+                <target>SCALED RISK 大数据软件公司</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2013b.summary">
+                <source>timeline.exp.2013b.summary</source>
+                <target>作为实习生，主要开发大数据web应用的前台界面。基于JavaScript语言，jQuery/UI工具库</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2013b.detail.title">
+                <source>timeline.exp.2013b.detail.title</source>
+                <target>SCALED RISK 大数据软件公司，实习 - web前台开发</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2013b.detail.body">
+                <source>timeline.exp.2013b.detail.body</source>
+                <target><![CDATA[<p>ScaledRisk是一个专注于大数据挖掘与商业智能的创新型创业公司，主要客户法国兴业银行。</p><ol><li>开发前台应用，利用jQuery/SlickGrid/D3.js等工具集，呈现大数据表格、图形，动态显示等组件。</li><li>开发基于Java后台web服务，连接Hadoop/HBase大数据底层服务获取数据，发送前端。</li></ol>]]></target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2012.job">
+                <source>timeline.exp.2012.job</source>
+                <target>实习 - 网站后台开发</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2012.duration">
+                <source>timeline.exp.2012.duration</source>
+                <target>2012年2月 - 2012年8月</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2012.company">
+                <source>timeline.exp.2012.company</source>
+                <target>TICKET COM 传媒公司</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2012.summary">
+                <source>timeline.exp.2012.summary</source>
+                <target>作为实习生，主要开发网站后台模块，基于PHP5语言CodeIgniter框架。</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2012.detail.title">
+                <source>timeline.exp.2012.detail.title</source>
+                <target>TICKET COM 传媒公司，实习 - 网站后台开发</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2012.detail.body">
+                <source>timeline.exp.2012.detail.body</source>
+                <target><![CDATA[<p>TicketCom是一个收银票据业务广告商，在票据和网站上发布商铺优惠活动。</p><ol><li>开发基于PHP框架CodeIgniter的后台服务，管理优惠券、整理每日商户营业额数据。</li><li>开发基于jQueryMobile框架的网站移动端版本，对用户访问的终端类型分类。</li></ol>]]></target>
+            </trans-unit>
+            <trans-unit id="timeline.edu.title">
+                <source>timeline.edu.title</source>
+                <target>教育背景</target>
+            </trans-unit>
+            <trans-unit id="timeline.edu.2010.school">
+                <source>timeline.edu.2010.school</source>
+                <target>EFREI信息与数字科技工程师学院，法国巴黎</target>
+            </trans-unit>
+            <trans-unit id="timeline.edu.2010.formation">
+                <source>timeline.edu.2010.formation</source>
+                <target>信息系统架构与设计专业</target>
+            </trans-unit>
+            <trans-unit id="timeline.edu.2010.duration">
+                <source>timeline.edu.2010.duration</source>
+                <target>2010年10月 - 2013年9月</target>
+            </trans-unit>
+            <trans-unit id="timeline.edu.2010.summary">
+                <source>timeline.edu.2010.summary</source>
+                <target>通过北工大-EFREI国际交换项目</target>
+            </trans-unit>
+            <trans-unit id="timeline.edu.2007.school">
+                <source>timeline.edu.2007.school</source>
+                <target>北京工业大学，中国北京</target>
+            </trans-unit>
+            <trans-unit id="timeline.edu.2007.formation">
+                <source>timeline.edu.2007.formation</source>
+                <target>计算机科学与技术专业</target>
+            </trans-unit>
+            <trans-unit id="timeline.edu.2007.duration">
+                <source>timeline.edu.2007.duration</source>
+                <target>2007年9月 - 2011年9月</target>
+            </trans-unit>
+            <trans-unit id="timeline.edu.2007.summary">
+                <source>timeline.edu.2007.summary</source>
+                <target></target>
+            </trans-unit>
+            <trans-unit id="contact.title">
+                <source>contact.title</source>
+                <target>联系我</target>
+            </trans-unit>
+            <trans-unit id="contact.your_email">
+                <source>contact.your_email</source>
+                <target>您的邮箱</target>
+            </trans-unit>
+            <trans-unit id="contact.your_email_tip">
+                <source>contact.your_email_tip</source>
+                <target>我不会将您的邮箱地址分享给任何人。</target>
+            </trans-unit>
+            <trans-unit id="contact.your_subject">
+                <source>contact.your_subject</source>
+                <target>邮件主题</target>
+            </trans-unit>
+            <trans-unit id="contact.your_message">
+                <source>contact.your_message</source>
+                <target>邮件内容</target>
+            </trans-unit>
+            <trans-unit id="contact.your_cc">
+                <source>contact.your_cc</source>
+                <target>抄送自己一份</target>
+            </trans-unit>
+            <trans-unit id="contact.send">
+                <source>contact.send</source>
+                <target>发送邮件</target>
+            </trans-unit>
+            <trans-unit id="contact.success">
+                <source>contact.success</source>
+                <target>您的邮件发送成功 !</target>
+            </trans-unit>
+            <trans-unit id="contact.failure">
+                <source>contact.failure</source>
+                <target>发生了一个错误 !</target>
+            </trans-unit>
+            <trans-unit id="contact.last">
+                <source>contact.last</source>
+                <target>向前</target>
+            </trans-unit>
+            <trans-unit id="contact.next">
+                <source>contact.next</source>
+                <target>向后</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="zh" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="base.title">
+                <source>base.title</source>
+                <target>郭成龙的个人网站</target>
+            </trans-unit>
+            <trans-unit id="base.description">
+                <source>base.description</source>
+                <target>郭成龙的个人网站 - 渐进式web应用全栈开发工程师</target>
+            </trans-unit>
+            <trans-unit id="base.close">
+                <source>base.close</source>
+                <target>关闭</target>
+            </trans-unit>
+            <trans-unit id="header.brand">
+                <source>header.close</source>
+                <target>Chenglong GUO</target>
+            </trans-unit>
+            <trans-unit id="header.lang">
+                <source>header.close</source>
+                <target>显示语言</target>
+            </trans-unit>
+            <trans-unit id="header.zh">
+                <source>header.close</source>
+                <target>中文</target>
+            </trans-unit>
+            <trans-unit id="header.fr">
+                <source>header.close</source>
+                <target>Français</target>
+            </trans-unit>
+            <trans-unit id="header.en">
+                <source>header.close</source>
+                <target>English</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
