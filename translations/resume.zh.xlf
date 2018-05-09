@@ -4,7 +4,7 @@
         <body>
             <trans-unit id="cv.firstname">
                 <source>cv.firstname</source>
-                <target>成龙</target>
+                <target>a成龙</target>
             </trans-unit>
             <trans-unit id="cv.lastname">
                 <source>cv.lastname</source>

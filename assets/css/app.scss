@@ -1,0 +1,184 @@
+/* ---------------------- Globals ---------------------- */
+$primary-color: #12887b;
+$section-space: 3rem;
+
+/* ---------------------- Header ---------------------- */
+.navbar {
+  padding-top: .1rem;
+  padding-bottom: .1rem;
+  .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+     img {
+       border-radius: 3px;
+     }
+  }
+  a.nav-link {
+    color: #f5f5f5;
+  }
+}
+
+/* ---------------------- Body ---------------------- */
+body {
+  background-color: #f5f5f5;
+
+  .section-title {
+    color: $primary-color;
+    margin-bottom: 2rem;
+
+    .material-icons {
+      font-size: 3rem;
+      padding: 0.5rem;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+      margin-right: 1rem;
+    }
+  }
+}
+
+/* ---------------------- Section cover ---------------------- */
+.section-cover {
+  height: 400px;
+  background-image: url("../img/cover_1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* ---------------------- Section CV card ---------------------- */
+$faq-blog-bg: #563f7a;
+$faq-linkedin-bg: #1178B2;
+$faq-github-bg: #2c3238;
+$faq-gist-bg: #00BCD4;
+
+.section-cv-card {
+  margin-top: -280px;
+
+  .card {
+    padding: 3rem 3rem 1rem 3rem;
+  }
+
+  .card, a[href] {
+    background-color: $primary-color;
+    color: #fff;
+  }
+
+  .card-body {
+    .list-group-item {
+      padding: 0.3rem 0;
+    }
+
+    img {
+      max-width: 196px;
+      max-height: 196px;
+      border-radius: 50%;
+    }
+
+    .bmd-btn-fab:not(:first-child) {
+      margin-left: 1rem;
+    }
+
+    .bmd-btn-fab.blog {
+      background-color: $faq-blog-bg;
+      &:hover {
+        background-color: darken($faq-blog-bg, 10%);
+      }
+    }
+
+    .bmd-btn-fab.linkedin {
+      background-color: $faq-linkedin-bg;
+      &:hover {
+        background-color: darken($faq-linkedin-bg, 10%);
+      }
+    }
+
+    .bmd-btn-fab.github {
+      background-color: $faq-github-bg;
+      &:hover {
+        background-color: darken($faq-github-bg, 10%);
+      }
+    }
+
+    .bmd-btn-fab.gist {
+      background-color: $faq-gist-bg;
+      &:hover {
+        background-color: darken($faq-gist-bg, 10%);
+      }
+    }
+  }
+}
+
+/* ---------------------- Section summary ---------------------- */
+.section-summary {
+  margin-top: $section-space;
+}
+
+/* ---------------------- Section timeline experiences ---------------------- */
+$timeline-color: #3f51b5;
+
+.section-timeline-exp, .section-timeline-edu {
+  margin-top: $section-space;
+
+  .sep-center:after, .sep-left:before, .sep-right:before {
+    content: ' ';
+    background-color: $timeline-color;
+    display: block;
+    opacity: 0.6;
+    position: absolute;
+  }
+
+  .sep-center:after {
+    width: 4px;
+    height: 100%;
+    left: 49%;
+    top: 0;
+  }
+
+  .sep-left:before {
+    width: 50%;
+    height: 4px;
+    left: 0;
+    top: 28px;
+  }
+
+  .sep-right:before {
+    width: 50%;
+    height: 4px;
+    right: 0;
+    top: 28px;
+  }
+
+  .sep-point {
+    position: absolute;
+    left: calc(50% - 28px);
+    .material-icons {
+      display: block;
+      font-size: 30px;
+    }
+  }
+
+  .sep-no-height {
+    height: 0;
+  }
+
+  .card {
+    border-left: 5px solid $timeline-color;
+  }
+}
+
+/* ---------------------- Section contact me ---------------------- */
+.section-contact-me {
+  margin-top: $section-space;
+  .contact-carousel-item {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #000;
+  }
+}
+
+/* ---------------------- Snackbar JS ---------------------- */
+.snackbar-content {
+  margin-bottom: 3px;
+  font-size: 1.2rem;
+}

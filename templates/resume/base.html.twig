@@ -2,7 +2,7 @@
 <html lang="{{ app.request.locale }}">
 <head>
     <!-- Title -->
-    <title>{% block title %}{{ 'base.title'|trans({}, 'app') }}{% endblock %}</title>
+    <title>{% block title %}{{ 'base.title'|trans({}, 'resume') }}{% endblock %}</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -26,9 +26,9 @@
     {% block stylesheets %}{% endblock %}
 </head>
 <body>
-{% include "header.html.twig" %}
+{% include "resume/header.html.twig" %}
 {% block body %}{% endblock %}
-{% include "footer.html.twig" %}
+{% include "resume/footer.html.twig" %}
 
 <!-- jQuery -->
 <script src="{{ asset('node_modules/jquery/dist/jquery.slim.min.js') }}"></script>

@@ -1,4 +1,4 @@
-{% extends 'base.html.twig' %}
+{% extends "resume/base.html.twig" %}
 
 {% block body %}
     <!-- Section background -->
@@ -247,7 +247,7 @@
                 <div class="col-12 col-md-6 pr-0 pl-2">
                     <div class="card">
                         <div class="card-body">
-                            <form method="post" action="{{ path('contact_email_send') }}">
+                            <form method="post" action="{{ path('contact_email') }}">
                                 <div class="form-group">
                                     <label for="c_y_email">{{ 'contact.your_email'|trans({}, 'app') }}</label>
                                     <input type="email" class="form-control" id="c_y_email" name="c_y_email" aria-describedby="c_y_emailHelp" required>
@@ -278,5 +278,5 @@
         </div>
     </section>
 
-{% include "exp.html.twig" %}
+{% include "resume/exp.html.twig" %}
 {% endblock %}

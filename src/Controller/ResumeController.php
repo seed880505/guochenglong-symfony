@@ -55,11 +55,11 @@ class ResumeController extends Controller
         }
 
         if ($mailer->send($message) > 0) {
-            $msg = $this->get('translator')->trans('contact.success', [], 'app');
+            $msg = $this->get('translator')->trans('contact.success', [], 'resume');
         } else {
-            $msg = $this->get('translator')->trans('contact.failure', [], 'app');
+            $msg = $this->get('translator')->trans('contact.failure', [], 'resume');
         }
         $this->get('session')->getFlashBag()->add('flash_msg', $msg);
-        return $this->redirectToRoute('homepage');
+        return $this->redirectToRoute('resume_page');
     }
 }
