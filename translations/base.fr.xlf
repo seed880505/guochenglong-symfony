@@ -15,23 +15,23 @@
                 <target>关闭</target>
             </trans-unit>
             <trans-unit id="header.brand">
-                <source>header.close</source>
+                <source>header.brand</source>
                 <target>Chenglong GUO</target>
             </trans-unit>
             <trans-unit id="header.lang">
-                <source>header.close</source>
+                <source>header.lang</source>
                 <target>显示语言</target>
             </trans-unit>
             <trans-unit id="header.zh">
-                <source>header.close</source>
+                <source>header.zh</source>
                 <target>中文</target>
             </trans-unit>
             <trans-unit id="header.fr">
-                <source>header.close</source>
+                <source>header.fr</source>
                 <target>Français</target>
             </trans-unit>
             <trans-unit id="header.en">
-                <source>header.close</source>
+                <source>header.en</source>
                 <target>English</target>
             </trans-unit>
         </body>

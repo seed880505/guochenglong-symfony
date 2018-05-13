@@ -15,12 +15,12 @@
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                    aria-expanded="false">
                     {% set lang_active = 'header.' ~ app.request.locale %}
-                    {{ 'header.lang'|trans({}, 'app') }}: {{ lang_active|trans({}, 'app') }}
+                    {{ 'header.lang'|trans({}, 'resume') }}: {{ lang_active|trans({}, 'resume') }}
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="{{ path('resume_page', {'_locale': 'zh'}) }}">{{ "header.zh"|trans({}, 'app') }}</a>
-                    <a class="dropdown-item" href="{{ path('resume_page', {'_locale': 'en'}) }}">{{ "header.en"|trans({}, 'app') }}</a>
-                    <a class="dropdown-item" href="{{ path('resume_page', {'_locale': 'fr'}) }}">{{ "header.fr"|trans({}, 'app') }}</a>
+                    <a class="dropdown-item" href="{{ path('resume_page', {'_locale': 'zh'}) }}">{{ "header.zh"|trans({}, 'base') }}</a>
+                    <a class="dropdown-item" href="{{ path('resume_page', {'_locale': 'en'}) }}">{{ "header.en"|trans({}, 'base') }}</a>
+                    <a class="dropdown-item" href="{{ path('resume_page', {'_locale': 'fr'}) }}">{{ "header.fr"|trans({}, 'base') }}</a>
                 </div>
             </li>#}
         </ul>
@@ -28,12 +28,12 @@
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                aria-expanded="false">
                 {% set lang_active = 'header.' ~ app.request.locale %}
-                {{ 'header.lang'|trans({}, 'app') }}: {{ lang_active|trans({}, 'app') }}
+                {{ 'header.lang'|trans({}, 'base') }}: {{ lang_active|trans({}, 'base') }}
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="{{ path('resume_page', {'_locale': 'zh'}) }}">{{ "header.zh"|trans({}, 'app') }}</a>
-                <a class="dropdown-item" href="{{ path('resume_page', {'_locale': 'en'}) }}">{{ "header.en"|trans({}, 'app') }}</a>
-                <a class="dropdown-item" href="{{ path('resume_page', {'_locale': 'fr'}) }}">{{ "header.fr"|trans({}, 'app') }}</a>
+                <a class="dropdown-item" href="{{ path('resume_page', {'_locale': 'zh'}) }}">{{ "header.zh"|trans({}, 'base') }}</a>
+                <a class="dropdown-item" href="{{ path('resume_page', {'_locale': 'en'}) }}">{{ "header.en"|trans({}, 'base') }}</a>
+                <a class="dropdown-item" href="{{ path('resume_page', {'_locale': 'fr'}) }}">{{ "header.fr"|trans({}, 'base') }}</a>
             </div>
         </div>
     </div>

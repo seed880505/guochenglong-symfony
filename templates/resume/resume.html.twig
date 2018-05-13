@@ -10,21 +10,21 @@
             <div class="card">
                 <div class="card-body row m-0">
                     <div class="col-12 col-md-8">
-                        <h1 class="card-title font-weight-bold">{{ 'cv.fullname'|trans({}, 'app') }}</h1>
-                        <h5 class="card-subtitle">{{ 'cv.title'|trans({}, 'app') }}</h5>
+                        <h1 class="card-title font-weight-bold">{{ 'cv.fullname'|trans({}, 'resume') }}</h1>
+                        <h5 class="card-subtitle">{{ 'cv.title'|trans({}, 'resume') }}</h5>
                         <hr>
                         <ul class="list-group">
                             <li class="list-group-item">
                                 <i class="material-icons">send</i>
-                                <a href="mailto:{{ 'cv.email'|trans({}, 'app') }}">{{ 'cv.email'|trans({}, 'app') }}</a>
+                                <a href="mailto:{{ 'cv.email'|trans({}, 'resume') }}">{{ 'cv.email'|trans({}, 'resume') }}</a>
                             </li>
                             <li class="list-group-item">
                                 <i class="material-icons">language</i>
-                                <a href="{{ 'cv.website'|trans({}, 'app') }}" target="_self">{{ 'cv.website'|trans({}, 'app') }}</a>
+                                <a href="{{ 'cv.website'|trans({}, 'resume') }}" target="_self">{{ 'cv.website'|trans({}, 'resume') }}</a>
                             </li>
                             <li class="list-group-item">
                                 <i class="material-icons">location_city</i>
-                                {{ 'cv.location'|trans({}, 'app') }}
+                                {{ 'cv.location'|trans({}, 'resume') }}
                             </li>
                         </ul>
                     </div>
@@ -35,17 +35,17 @@
 
                     <div class="col-12 mt-3">
                         <button type="button" class="btn btn-primary bmd-btn-fab bmd-btn-fab-sm blog"
-                                onclick="location.assign('{{ 'cv.blog'|trans({}, 'app') }}')">
+                                onclick="location.assign('{{ 'cv.blog'|trans({}, 'resume') }}')">
                             <i class="fa fa-code" aria-hidden="true"></i>
                         </button>
 
                         <button type="button" class="btn btn-primary bmd-btn-fab bmd-btn-fab-sm linkedin"
-                                onclick="location.assign('{{ 'cv.linkedin'|trans({}, 'app') }}')">
+                                onclick="location.assign('{{ 'cv.linkedin'|trans({}, 'resume') }}')">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                         </button>
 
                         <button type="button" class="btn btn-primary bmd-btn-fab bmd-btn-fab-sm github"
-                                onclick="location.assign('{{ 'cv.github'|trans({}, 'app') }}')">
+                                onclick="location.assign('{{ 'cv.github'|trans({}, 'resume') }}')">
                             <i class="fa fa-github-alt" aria-hidden="true"></i>
                         </button>
                     </div>
@@ -58,11 +58,11 @@
     <section class="section-summary">
         <div class="container">
             <div class="card">
-                <div class="card-header">{{ 'summary.title'|trans({}, 'app') }}</div>
+                <div class="card-header">{{ 'summary.title'|trans({}, 'resume') }}</div>
                 <div class="card-body row m-0">
-                    <div class="col-12"><p>{{ 'summary.body'|trans({}, 'app') }}</p></div>
+                    <div class="col-12"><p>{{ 'summary.body'|trans({}, 'resume') }}</p></div>
                     <div class="col-12 text-center">
-                        <a role="button" class="btn btn-raised btn-primary" href="#section_contact">{{ 'summary.btn.contact'|trans({}, 'app') }}</a>
+                        <a role="button" class="btn btn-raised btn-primary" href="#section_contact">{{ 'summary.btn.contact'|trans({}, 'resume') }}</a>
                     </div>
                 </div>
             </div>
@@ -73,17 +73,17 @@
     <section class="section-timeline-exp">
         <div class="container text-center text-uppercase section-title">
             <i class="material-icons align-middle">card_travel</i>
-            <span class="h2 align-middle">{{ 'timeline.exp.title'|trans({}, 'app') }}</span>
+            <span class="h2 align-middle">{{ 'timeline.exp.title'|trans({}, 'resume') }}</span>
         </div>
         <div class="container">
             <div class="row m-0">
                 <div class="card col-12 col-md-5">
                     <div class="card-body">
-                        <p class="h5">{{ 'timeline.exp.2016.job'|trans({}, 'app') }}</p>
-                        <p class="h6">{{ 'timeline.exp.2016.company'|trans({}, 'app') }}</p>
-                        <p class="h6">{{ 'timeline.exp.2016.duration'|trans({}, 'app') }}</p>
-                        <p>{{ 'timeline.exp.2016.summary'|trans({}, 'app') }}</p>
-                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal" data-target="#detail-exp-2016">{{ 'timeline.readmore'|trans({}, 'app') }}</button>
+                        <p class="h5">{{ 'timeline.exp.2016.job'|trans({}, 'resume') }}</p>
+                        <p class="h6">{{ 'timeline.exp.2016.company'|trans({}, 'resume') }}</p>
+                        <p class="h6">{{ 'timeline.exp.2016.duration'|trans({}, 'resume') }}</p>
+                        <p>{{ 'timeline.exp.2016.summary'|trans({}, 'resume') }}</p>
+                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal" data-target="#detail-exp-2016">{{ 'timeline.readmore'|trans({}, 'resume') }}</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-2 sep-center sep-left"></div>
@@ -100,11 +100,11 @@
                 <div class="col-12 col-md-2 sep-center sep-right"></div>
                 <div class="card col-12 col-md-5">
                     <div class="card-body">
-                        <p class="h5">{{ 'timeline.exp.2013.job'|trans({}, 'app') }}</p>
-                        <p class="h6">{{ 'timeline.exp.2013.company'|trans({}, 'app') }}</p>
-                        <p class="h6">{{ 'timeline.exp.2013.duration'|trans({}, 'app') }}</p>
-                        <p>{{ 'timeline.exp.2013.summary'|trans({}, 'app') }}</p>
-                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal" data-target="#detail-exp-2013">{{ 'timeline.readmore'|trans({}, 'app') }}</button>
+                        <p class="h5">{{ 'timeline.exp.2013.job'|trans({}, 'resume') }}</p>
+                        <p class="h6">{{ 'timeline.exp.2013.company'|trans({}, 'resume') }}</p>
+                        <p class="h6">{{ 'timeline.exp.2013.duration'|trans({}, 'resume') }}</p>
+                        <p>{{ 'timeline.exp.2013.summary'|trans({}, 'resume') }}</p>
+                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal" data-target="#detail-exp-2013">{{ 'timeline.readmore'|trans({}, 'resume') }}</button>
                     </div>
                 </div>
                 <button type="button" class="btn btn-primary bmd-btn-fab sep-point">
@@ -117,11 +117,11 @@
             <div class="row m-0">
                 <div class="card col-12 col-md-5">
                     <div class="card-body">
-                        <p class="h5">{{ 'timeline.exp.2013b.job'|trans({}, 'app') }}</p>
-                        <p class="h6">{{ 'timeline.exp.2013b.company'|trans({}, 'app') }}</p>
-                        <p class="h6">{{ 'timeline.exp.2013b.duration'|trans({}, 'app') }}</p>
-                        <p>{{ 'timeline.exp.2013b.summary'|trans({}, 'app') }}</p>
-                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal" data-target="#detail-exp-2013b">{{ 'timeline.readmore'|trans({}, 'app') }}</button>
+                        <p class="h5">{{ 'timeline.exp.2013b.job'|trans({}, 'resume') }}</p>
+                        <p class="h6">{{ 'timeline.exp.2013b.company'|trans({}, 'resume') }}</p>
+                        <p class="h6">{{ 'timeline.exp.2013b.duration'|trans({}, 'resume') }}</p>
+                        <p>{{ 'timeline.exp.2013b.summary'|trans({}, 'resume') }}</p>
+                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal" data-target="#detail-exp-2013b">{{ 'timeline.readmore'|trans({}, 'resume') }}</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-2 sep-center sep-left"></div>
@@ -138,11 +138,11 @@
                 <div class="col-12 col-md-2 sep-center sep-right sep-no-height"></div>
                 <div class="card col-12 col-md-5">
                     <div class="card-body">
-                        <p class="h5">{{ 'timeline.exp.2012.job'|trans({}, 'app') }}</p>
-                        <p class="h6">{{ 'timeline.exp.2012.company'|trans({}, 'app') }}</p>
-                        <p class="h6">{{ 'timeline.exp.2012.duration'|trans({}, 'app') }}</p>
-                        <p>{{ 'timeline.exp.2012.summary'|trans({}, 'app') }}</p>
-                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal" data-target="#detail-exp-2012">{{ 'timeline.readmore'|trans({}, 'app') }}</button>
+                        <p class="h5">{{ 'timeline.exp.2012.job'|trans({}, 'resume') }}</p>
+                        <p class="h6">{{ 'timeline.exp.2012.company'|trans({}, 'resume') }}</p>
+                        <p class="h6">{{ 'timeline.exp.2012.duration'|trans({}, 'resume') }}</p>
+                        <p>{{ 'timeline.exp.2012.summary'|trans({}, 'resume') }}</p>
+                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal" data-target="#detail-exp-2012">{{ 'timeline.readmore'|trans({}, 'resume') }}</button>
                     </div>
                 </div>
                 <button type="button" class="btn btn-primary bmd-btn-fab sep-point">
@@ -156,16 +156,16 @@
     <section class="section-timeline-edu">
         <div class="container text-center text-uppercase section-title">
             <i class="material-icons">school</i>
-            <span class="h2 align-middle">{{ 'timeline.edu.title'|trans({}, 'app') }}</span>
+            <span class="h2 align-middle">{{ 'timeline.edu.title'|trans({}, 'resume') }}</span>
         </div>
         <div class="container">
             <div class="row m-0">
                 <div class="card col-12 col-md-5">
                     <div class="card-body">
-                        <p class="h5">{{ 'timeline.edu.2010.school'|trans({}, 'app') }}</p>
-                        <p class="h6">{{ 'timeline.edu.2010.formation'|trans({}, 'app') }}</p>
-                        <p class="h6">{{ 'timeline.edu.2010.duration'|trans({}, 'app') }}</p>
-                        <p>{{ 'timeline.edu.2010.summary'|trans({}, 'app') }}</p>
+                        <p class="h5">{{ 'timeline.edu.2010.school'|trans({}, 'resume') }}</p>
+                        <p class="h6">{{ 'timeline.edu.2010.formation'|trans({}, 'resume') }}</p>
+                        <p class="h6">{{ 'timeline.edu.2010.duration'|trans({}, 'resume') }}</p>
+                        <p>{{ 'timeline.edu.2010.summary'|trans({}, 'resume') }}</p>
                     </div>
                 </div>
                 <div class="col-12 col-md-2 sep-center sep-left"></div>
@@ -182,10 +182,10 @@
                 <div class="col-12 col-md-2 sep-center sep-right sep-no-height"></div>
                 <div class="card col-12 col-md-5">
                     <div class="card-body">
-                        <p class="h5">{{ 'timeline.edu.2007.school'|trans({}, 'app') }}</p>
-                        <p class="h6">{{ 'timeline.edu.2007.formation'|trans({}, 'app') }}</p>
-                        <p class="h6">{{ 'timeline.edu.2007.duration'|trans({}, 'app') }}</p>
-                        <p>{{ 'timeline.edu.2007.summary'|trans({}, 'app') }}</p>
+                        <p class="h5">{{ 'timeline.edu.2007.school'|trans({}, 'resume') }}</p>
+                        <p class="h6">{{ 'timeline.edu.2007.formation'|trans({}, 'resume') }}</p>
+                        <p class="h6">{{ 'timeline.edu.2007.duration'|trans({}, 'resume') }}</p>
+                        <p>{{ 'timeline.edu.2007.summary'|trans({}, 'resume') }}</p>
                     </div>
                 </div>
                 <button type="button" class="btn btn-primary bmd-btn-fab sep-point">
@@ -199,7 +199,7 @@
     <section class="section-contact-me" id="section_contact">
         <div class="container text-center text-uppercase section-title">
             <i class="material-icons align-middle">contact_mail</i>
-            <span class="h2 align-middle">{{ 'contact.title'|trans({}, 'app') }}</span>
+            <span class="h2 align-middle">{{ 'contact.title'|trans({}, 'resume') }}</span>
         </div>
 
         <div class="container">
@@ -236,11 +236,11 @@
                         </div>
                         <a class="carousel-control-prev" href="#contactIndicators" role="button" data-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">{{ 'contact.last'|trans({}, 'app') }}</span>
+                            <span class="sr-only">{{ 'contact.last'|trans({}, 'resume') }}</span>
                         </a>
                         <a class="carousel-control-next" href="#contactIndicators" role="button" data-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">{{ 'contact.next'|trans({}, 'app') }}</span>
+                            <span class="sr-only">{{ 'contact.next'|trans({}, 'resume') }}</span>
                         </a>
                     </div>
                 </div>
@@ -249,26 +249,26 @@
                         <div class="card-body">
                             <form method="post" action="{{ path('contact_email') }}">
                                 <div class="form-group">
-                                    <label for="c_y_email">{{ 'contact.your_email'|trans({}, 'app') }}</label>
+                                    <label for="c_y_email">{{ 'contact.your_email'|trans({}, 'resume') }}</label>
                                     <input type="email" class="form-control" id="c_y_email" name="c_y_email" aria-describedby="c_y_emailHelp" required>
-                                    <small id="c_y_emailHelp" class="form-text text-muted">{{ 'contact.your_email_tip'|trans({}, 'app') }}</small>
+                                    <small id="c_y_emailHelp" class="form-text text-muted">{{ 'contact.your_email_tip'|trans({}, 'resume') }}</small>
                                 </div>
                                 <div class="form-group">
-                                    <label for="c_y_subject">{{ 'contact.your_subject'|trans({}, 'app') }}</label>
+                                    <label for="c_y_subject">{{ 'contact.your_subject'|trans({}, 'resume') }}</label>
                                     <input type="text" class="form-control" id="c_y_subject" name="c_y_subject" required>
                                 </div>
                                 <div class="form-group">
-                                    <label for="c_y_message">{{ 'contact.your_message'|trans({}, 'app') }}</label>
+                                    <label for="c_y_message">{{ 'contact.your_message'|trans({}, 'resume') }}</label>
                                     <textarea class="form-control" id="c_y_message" name="c_y_message" rows="3" required></textarea>
                                 </div>
                                 <div class="checkbox">
                                     <label class="form-check-label">
                                         <input type="checkbox" class="form-check-input" id="c_y_cc" name="c_y_cc">
-                                        {{ 'contact.your_cc'|trans({}, 'app') }}
+                                        {{ 'contact.your_cc'|trans({}, 'resume') }}
                                     </label>
                                 </div>
                                 <div class="mt-4 text-right">
-                                    <button type="submit" class="btn btn-raised btn-primary">{{ 'contact.send'|trans({}, 'app') }}</button>
+                                    <button type="submit" class="btn btn-raised btn-primary">{{ 'contact.send'|trans({}, 'resume') }}</button>
                                 </div>
                             </form>
                         </div>
