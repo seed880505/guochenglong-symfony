@@ -9,20 +9,20 @@
     <meta name="description" content="{{ 'base.description'|trans({}, 'base') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Icons -->
-    <link rel="manifest" href="{{ asset('manifest.json') }}">
     <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
-    <!-- Google fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <!-- Material icons -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/material-design-icons/3.0.1/iconfont/material-icons.min.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="{{ asset('node_modules/font-awesome/css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Material Design for Bootstrap -->
-    <link rel="stylesheet" href="{{ asset('node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.min.css') }}">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css">
+    {#<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap-material-design/4.0.2/bootstrap-material-design.min.css">#}
     <!-- Snackbars -->
-    <link rel="stylesheet" href="{{ asset('node_modules/snackbarjs/dist/snackbar.min.css') }}">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/snackbarjs/1.1.0/snackbar.min.css">
     <!-- Application -->
-    <link rel="stylesheet" href="{{ asset('stylesheets/app.css') }}">
-    <!-- Custom -->
+    <link rel="stylesheet" href="{{ asset('build/app.css') }}">
+
     {% block stylesheets %}{% endblock %}
 </head>
 <body>
@@ -31,17 +31,17 @@
 {% include "resume/footer.html.twig" %}
 
 <!-- jQuery -->
-<script src="{{ asset('node_modules/jquery/dist/jquery.slim.min.js') }}"></script>
-<script src="{{ asset('node_modules/popper.js/dist/umd/popper.min.js') }}"></script>
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.slim.min.js"></script>
+<script src="https://cdn.bootcss.com/popper.js/1.12.6/umd/popper.min.js"></script>
 <!-- Snackbars -->
-<script src="{{ asset('node_modules/snackbarjs/dist/snackbar.min.js') }}"></script>
+<script src="https://cdn.bootcss.com/snackbarjs/1.1.0/snackbar.min.js"></script>
 <!-- Material Design for Bootstrap -->
-<script src="{{ asset('node_modules/bootstrap-material-design/dist/js/bootstrap-material-design.min.js') }}"></script>
-<script>
-  $(document).ready(function () {
-    $('body').bootstrapMaterialDesign();
-  });
-</script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.min.js"></script>
+{#<script src="https://cdn.bootcss.com/bootstrap-material-design/4.0.2/bootstrap-material-design.umd.min.js"></script>#}
+
+
+<script src="{{ asset('build/app.js') }}"></script>
+
 {% if app.request.hasPreviousSession %}
     {% for message in app.flashes('flash_msg') %}
         <script>

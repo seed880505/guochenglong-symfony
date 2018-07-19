@@ -1,0 +1,13 @@
+{
+  "name": "Chenglong GUO",
+  "short_name": "Chenglong",
+  "start_url": "index.php",
+  "display": "standalone",
+  "icons": [{
+    "src": "images/icon.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }],
+  "background_color": "#0288d1",
+  "theme_color": "#0288d1"
+}
