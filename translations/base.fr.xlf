@@ -20,7 +20,7 @@
             </trans-unit>
             <trans-unit id="header.lang">
                 <source>header.lang</source>
-                <target>显示语言</target>
+                <target>语言</target>
             </trans-unit>
             <trans-unit id="header.zh">
                 <source>header.zh</source>

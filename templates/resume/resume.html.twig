@@ -14,16 +14,17 @@
                         <h5 class="card-subtitle">{{ 'cv.title'|trans({}, 'resume') }}</h5>
                         <hr>
                         <ul class="list-group">
-                            <li class="list-group-item">
-                                <i class="material-icons">send</i>
+                            <li class="list-group-item p-2">
+                                <i class="fas fa-envelope fa-lg fa-fw"></i>
                                 <a href="mailto:{{ 'cv.email'|trans({}, 'resume') }}">{{ 'cv.email'|trans({}, 'resume') }}</a>
                             </li>
-                            <li class="list-group-item">
-                                <i class="material-icons">language</i>
-                                <a href="{{ 'cv.website'|trans({}, 'resume') }}" target="_self">{{ 'cv.website'|trans({}, 'resume') }}</a>
+                            <li class="list-group-item p-2">
+                                <i class="fas fa-globe fa-lg fa-fw"></i>
+                                <a href="{{ 'cv.website'|trans({}, 'resume') }}"
+                                   target="_self">{{ 'cv.website'|trans({}, 'resume') }}</a>
                             </li>
-                            <li class="list-group-item">
-                                <i class="material-icons">location_city</i>
+                            <li class="list-group-item p-2">
+                                <i class="fas fa-map-marker-alt fa-lg fa-fw"></i>
                                 {{ 'cv.location'|trans({}, 'resume') }}
                             </li>
                         </ul>
@@ -35,18 +36,21 @@
 
                     <div class="col-12 mt-3">
                         <button type="button" class="btn btn-primary bmd-btn-fab bmd-btn-fab-sm blog"
-                                onclick="location.assign('{{ 'cv.blog'|trans({}, 'resume') }}')">
-                            <i class="fa fa-code" aria-hidden="true"></i>
+                                onclick="window.open('{{ 'cv.blog'|trans({}, 'resume') }}')"
+                                data-toggle="tooltip" title="{{ 'cv.blog.tlp'|trans({}, 'resume') }}">
+                            <i class="fab fa-joomla"></i>
                         </button>
 
                         <button type="button" class="btn btn-primary bmd-btn-fab bmd-btn-fab-sm linkedin"
-                                onclick="location.assign('{{ 'cv.linkedin'|trans({}, 'resume') }}')">
-                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                onclick="window.open('{{ 'cv.linkedin'|trans({}, 'resume') }}')"
+                                data-toggle="tooltip" title="{{ 'cv.linkedin.tlp'|trans({}, 'resume') }}">
+                            <i class="fab fa-linkedin-in"></i>
                         </button>
 
                         <button type="button" class="btn btn-primary bmd-btn-fab bmd-btn-fab-sm github"
-                                onclick="location.assign('{{ 'cv.github'|trans({}, 'resume') }}')">
-                            <i class="fa fa-github-alt" aria-hidden="true"></i>
+                                onclick="window.open('{{ 'cv.gitea'|trans({}, 'resume') }}')"
+                                data-toggle="tooltip" title="{{ 'cv.gitea.tlp'|trans({}, 'resume') }}">
+                            <i class="fab fa-github-alt"></i>
                         </button>
                     </div>
                 </div>
@@ -62,7 +66,8 @@
                 <div class="card-body row m-0">
                     <div class="col-12"><p>{{ 'summary.body'|trans({}, 'resume') }}</p></div>
                     <div class="col-12 text-center">
-                        <a role="button" class="btn btn-raised btn-primary" href="#section_contact">{{ 'summary.btn.contact'|trans({}, 'resume') }}</a>
+                        <a role="button" class="btn btn-raised btn-primary"
+                           href="#section_contact">{{ 'summary.btn.contact'|trans({}, 'resume') }}</a>
                     </div>
                 </div>
             </div>
@@ -72,7 +77,7 @@
     <!-- Section experiences -->
     <section class="section-timeline-exp">
         <div class="container text-center text-uppercase section-title">
-            <i class="material-icons align-middle">card_travel</i>
+            <i class="fas fa-suitcase fa-2x align-middle"></i>
             <span class="h2 align-middle">{{ 'timeline.exp.title'|trans({}, 'resume') }}</span>
         </div>
         <div class="container">
@@ -83,13 +88,14 @@
                         <p class="h6">{{ 'timeline.exp.2016.company'|trans({}, 'resume') }}</p>
                         <p class="h6">{{ 'timeline.exp.2016.duration'|trans({}, 'resume') }}</p>
                         <p>{{ 'timeline.exp.2016.summary'|trans({}, 'resume') }}</p>
-                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal" data-target="#detail-exp-2016">{{ 'timeline.readmore'|trans({}, 'resume') }}</button>
+                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal"
+                                data-target="#detail-exp-2016">{{ 'timeline.readmore'|trans({}, 'resume') }}</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-2 sep-center sep-left"></div>
                 <div class="col-12 col-md-5"></div>
                 <button type="button" class="btn btn-primary bmd-btn-fab sep-point">
-                    <i class="material-icons">phonelink</i>
+                    <i class="fas fa-mobile-alt"></i>
                 </button>
             </div>
         </div>
@@ -104,11 +110,12 @@
                         <p class="h6">{{ 'timeline.exp.2013.company'|trans({}, 'resume') }}</p>
                         <p class="h6">{{ 'timeline.exp.2013.duration'|trans({}, 'resume') }}</p>
                         <p>{{ 'timeline.exp.2013.summary'|trans({}, 'resume') }}</p>
-                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal" data-target="#detail-exp-2013">{{ 'timeline.readmore'|trans({}, 'resume') }}</button>
+                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal"
+                                data-target="#detail-exp-2013">{{ 'timeline.readmore'|trans({}, 'resume') }}</button>
                     </div>
                 </div>
                 <button type="button" class="btn btn-primary bmd-btn-fab sep-point">
-                    <i class="material-icons">public</i>
+                    <i class="fas fa-laptop"></i>
                 </button>
             </div>
         </div>
@@ -121,13 +128,14 @@
                         <p class="h6">{{ 'timeline.exp.2013b.company'|trans({}, 'resume') }}</p>
                         <p class="h6">{{ 'timeline.exp.2013b.duration'|trans({}, 'resume') }}</p>
                         <p>{{ 'timeline.exp.2013b.summary'|trans({}, 'resume') }}</p>
-                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal" data-target="#detail-exp-2013b">{{ 'timeline.readmore'|trans({}, 'resume') }}</button>
+                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal"
+                                data-target="#detail-exp-2013b">{{ 'timeline.readmore'|trans({}, 'resume') }}</button>
                     </div>
                 </div>
                 <div class="col-12 col-md-2 sep-center sep-left"></div>
                 <div class="col-12 col-md-5"></div>
                 <button type="button" class="btn btn-primary bmd-btn-fab sep-point">
-                    <i class="material-icons">face</i>
+                    <i class="fas fa-database"></i>
                 </button>
             </div>
         </div>
@@ -142,11 +150,12 @@
                         <p class="h6">{{ 'timeline.exp.2012.company'|trans({}, 'resume') }}</p>
                         <p class="h6">{{ 'timeline.exp.2012.duration'|trans({}, 'resume') }}</p>
                         <p>{{ 'timeline.exp.2012.summary'|trans({}, 'resume') }}</p>
-                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal" data-target="#detail-exp-2012">{{ 'timeline.readmore'|trans({}, 'resume') }}</button>
+                        <button type="button" class="btn btn-sm btn-primary float-right" data-toggle="modal"
+                                data-target="#detail-exp-2012">{{ 'timeline.readmore'|trans({}, 'resume') }}</button>
                     </div>
                 </div>
                 <button type="button" class="btn btn-primary bmd-btn-fab sep-point">
-                    <i class="material-icons">extension</i>
+                    <i class="fas fa-gift"></i>
                 </button>
             </div>
         </div>
@@ -155,7 +164,7 @@
     <!-- Section education -->
     <section class="section-timeline-edu">
         <div class="container text-center text-uppercase section-title">
-            <i class="material-icons">school</i>
+            <i class="fas fa-graduation-cap fa-2x align-middle"></i>
             <span class="h2 align-middle">{{ 'timeline.edu.title'|trans({}, 'resume') }}</span>
         </div>
         <div class="container">
@@ -171,7 +180,7 @@
                 <div class="col-12 col-md-2 sep-center sep-left"></div>
                 <div class="col-12 col-md-5"></div>
                 <button type="button" class="btn btn-primary bmd-btn-fab sep-point">
-                    <i class="material-icons">phonelink</i>
+                    <i class="fas fa-school"></i>
                 </button>
             </div>
         </div>
@@ -189,7 +198,7 @@
                     </div>
                 </div>
                 <button type="button" class="btn btn-primary bmd-btn-fab sep-point">
-                    <i class="material-icons">public</i>
+                    <i class="fas fa-university"></i>
                 </button>
             </div>
         </div>
@@ -198,7 +207,7 @@
     <!-- Section contact me -->
     <section class="section-contact-me" id="section_contact">
         <div class="container text-center text-uppercase section-title">
-            <i class="material-icons align-middle">contact_mail</i>
+            <i class="fas fa-at fa-2x align-middle"></i>
             <span class="h2 align-middle">{{ 'contact.title'|trans({}, 'resume') }}</span>
         </div>
 
@@ -213,24 +222,28 @@
                         </ol>
                         <div class="carousel-inner h-100">
                             <div class="carousel-item active h-100">
-                                {% set slide1Img = 'https://www.quape.com/wp-content/uploads/2017/07/ionic.jpg' %}
-                                <div class="h-100 w-100 contact-carousel-item" style="background-image:url('{{ slide1Img }}')"></div>
+                                {% set slide1Img = asset('build/images/ionic.jpg') %}
+                                <div class="h-100 w-100 contact-carousel-item"
+                                     style="background-image:url('{{ slide1Img }}')"></div>
                                 <div class="carousel-caption d-none d-md-block">
                                     <p>Ionic: The top open source framework for building web progress apps.</p>
                                 </div>
                             </div>
                             <div class="carousel-item h-100">
-                                {% set slide2Img = 'https://cdn-images-1.medium.com/max/2000/1*FDIQCYA3BNp9Ek-tqGeQjA.png' %}
-                                <div class="h-100 w-100 contact-carousel-item" style="background-image:url('{{ slide2Img }}')"></div>
+                                {% set slide2Img = asset('build/images/ionic.jpg') %}
+                                <div class="h-100 w-100 contact-carousel-item"
+                                     style="background-image:url('{{ slide2Img }}')"></div>
                                 <div class="carousel-caption d-none d-md-block">
                                     <p>Angular: Progressive Web Apps.</p>
                                 </div>
                             </div>
                             <div class="carousel-item h-100">
-                                {% set slide3Img = 'https://symfony.com/images/v5/promos/symfony-4/symfony-4.jpg' %}
-                                <div class="h-100 w-100 contact-carousel-item" style="background-image:url('{{ slide3Img }}')"></div>
+                                {% set slide3Img = asset('build/images/ionic.jpg') %}
+                                <div class="h-100 w-100 contact-carousel-item"
+                                     style="background-image:url('{{ slide3Img }}')"></div>
                                 <div class="carousel-caption d-none d-md-block">
-                                    <p>Symfony: Sets of reusable PHP components and a PHP framework for web projects.</p>
+                                    <p>Symfony: Sets of reusable PHP components and a PHP framework for web
+                                        projects.</p>
                                 </div>
                             </div>
                         </div>
@@ -250,16 +263,20 @@
                             <form method="post" action="{{ path('contact_email') }}">
                                 <div class="form-group">
                                     <label for="c_y_email">{{ 'contact.your_email'|trans({}, 'resume') }}</label>
-                                    <input type="email" class="form-control" id="c_y_email" name="c_y_email" aria-describedby="c_y_emailHelp" required>
-                                    <small id="c_y_emailHelp" class="form-text text-muted">{{ 'contact.your_email_tip'|trans({}, 'resume') }}</small>
+                                    <input type="email" class="form-control" id="c_y_email" name="c_y_email"
+                                           aria-describedby="c_y_emailHelp" required>
+                                    <small id="c_y_emailHelp"
+                                           class="form-text text-muted">{{ 'contact.your_email_tip'|trans({}, 'resume') }}</small>
                                 </div>
                                 <div class="form-group">
                                     <label for="c_y_subject">{{ 'contact.your_subject'|trans({}, 'resume') }}</label>
-                                    <input type="text" class="form-control" id="c_y_subject" name="c_y_subject" required>
+                                    <input type="text" class="form-control" id="c_y_subject" name="c_y_subject"
+                                           required>
                                 </div>
                                 <div class="form-group">
                                     <label for="c_y_message">{{ 'contact.your_message'|trans({}, 'resume') }}</label>
-                                    <textarea class="form-control" id="c_y_message" name="c_y_message" rows="3" required></textarea>
+                                    <textarea class="form-control" id="c_y_message" name="c_y_message" rows="3"
+                                              required></textarea>
                                 </div>
                                 <div class="checkbox">
                                     <label class="form-check-label">
@@ -268,7 +285,8 @@
                                     </label>
                                 </div>
                                 <div class="mt-4 text-right">
-                                    <button type="submit" class="btn btn-raised btn-primary">{{ 'contact.send'|trans({}, 'resume') }}</button>
+                                    <button type="submit"
+                                            class="btn btn-raised btn-primary">{{ 'contact.send'|trans({}, 'resume') }}</button>
                                 </div>
                             </form>
                         </div>
@@ -278,5 +296,5 @@
         </div>
     </section>
 
-{% include "resume/exp.html.twig" %}
+    {% include "resume/exp.html.twig" %}
 {% endblock %}

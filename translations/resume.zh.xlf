@@ -28,19 +28,39 @@
             </trans-unit>
             <trans-unit id="cv.location">
                 <source>cv.location</source>
-                <target>法国，巴黎</target>
+                <target>中国，牡丹江</target>
             </trans-unit>
             <trans-unit id="cv.blog">
                 <source>cv.blog</source>
                 <target>https://blog.guochenglong.com</target>
             </trans-unit>
+            <trans-unit id="cv.blog.tlp">
+                <source>cv.blog.tlp</source>
+                <target>我的技术备忘录</target>
+            </trans-unit>
             <trans-unit id="cv.linkedin">
                 <source>cv.linkedin</source>
                 <target>https://www.linkedin.com/in/chenglong-guo/</target>
             </trans-unit>
+            <trans-unit id="cv.linkedin.tlp">
+                <source>cv.linkedin.tlp</source>
+                <target>我的领英简历</target>
+            </trans-unit>
             <trans-unit id="cv.github">
                 <source>cv.github</source>
                 <target>https://github.com/seed880505</target>
+            </trans-unit>
+            <trans-unit id="cv.github.tlp">
+                <source>cv.github.tlp</source>
+                <target>我的Github开源代码</target>
+            </trans-unit>
+            <trans-unit id="cv.gitea">
+                <source>cv.gitea</source>
+                <target>https://gitea.guochenglong.com/explore/repos</target>
+            </trans-unit>
+            <trans-unit id="cv.gitea.tlp">
+                <source>cv.gitea.tlp</source>
+                <target>我的私有Git服务</target>
             </trans-unit>
             <trans-unit id="cv.gist">
                 <source>cv.gist</source>

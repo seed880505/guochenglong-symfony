@@ -12,9 +12,10 @@ Encore
   .addEntry('img-profile', './assets/img/profile.jpg')
   .addEntry('img-icon', './assets/img/icon.png')
   .addEntry('img-logo', './assets/img/logo.png')
+  .addEntry('img-slide1', './assets/img/ionic.jpg')
 
   // uncomment for legacy applications that require $/jQuery as a global variable
-  // .autoProvidejQuery()
+  .autoProvidejQuery()
 
   // uncomment if you use Sass/SCSS files
   .enableSassLoader()
