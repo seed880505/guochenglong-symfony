@@ -3,6 +3,9 @@
 parameters:
     locale: 'zh'
 
+    # my personal email
+    mailer_to: 'chenglong.guo@foxmail.com'
+
 services:
     # default configuration for services in *this* file
     _defaults:

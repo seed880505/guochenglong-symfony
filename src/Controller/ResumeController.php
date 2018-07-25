@@ -16,8 +16,9 @@ class ResumeController extends Controller
      */
     public function indexAction(Request $request)
     {
+
         return $this->render('resume/resume.html.twig', [
-            //'base_dir' => realpath($this->getParameter('kernel.project_dir')) . DIRECTORY_SEPARATOR,
+            'base_dir' => $this->generateUrl('resume_page')
         ]);
     }
 
@@ -25,7 +26,7 @@ class ResumeController extends Controller
      * @Route("/contact/email", name="contact_email", methods={"POST"})
      * @param Request $request
      * @param \Swift_Mailer $mailer
-     * @return \Symfony\Component\HttpFoundation\RedirectResponse
+     * @return Response
      * @throws \Exception
      */
     public function contactEmailAction(Request $request, \Swift_Mailer $mailer)
@@ -47,19 +48,19 @@ class ResumeController extends Controller
 
         // send
         $message = (new \Swift_Message($subject))
-            ->setFrom($this->getParameter('mailer_user'))
-            ->setTo($this->getParameter('my_email'))
+            ->setFrom($email)
+            ->setTo($this->getParameter('mailer_to'))
             ->setBody($message, 'text/plain');
         if (!empty($cc)) {
             $message->setCc($email);
         }
 
-        if ($mailer->send($message) > 0) {
-            $msg = $this->get('translator')->trans('contact.success', [], 'resume');
-        } else {
-            $msg = $this->get('translator')->trans('contact.failure', [], 'resume');
-        }
-        $this->get('session')->getFlashBag()->add('flash_msg', $msg);
-        return $this->redirectToRoute('resume_page');
+        // result
+        $sent_result = $mailer->send($message) > 0 ? 1 : 0;
+
+        return $this->render('resume/email-confirm.html.twig', [
+            'base_dir' => $this->generateUrl('resume_page'),
+            'sent_result' => $sent_result
+        ]);
     }
 }

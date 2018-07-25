@@ -4,15 +4,15 @@
         <body>
             <trans-unit id="base.title">
                 <source>base.title</source>
-                <target>郭成龙的个人网站</target>
+                <target>Perso site of Chenglong</target>
             </trans-unit>
             <trans-unit id="base.description">
                 <source>base.description</source>
-                <target>郭成龙的个人网站 - 渐进式web应用全栈开发工程师</target>
+                <target>Perso site of Chenglong - Web Application developer</target>
             </trans-unit>
             <trans-unit id="base.close">
                 <source>base.close</source>
-                <target>关闭</target>
+                <target>Close</target>
             </trans-unit>
             <trans-unit id="header.brand">
                 <source>header.brand</source>
@@ -20,7 +20,7 @@
             </trans-unit>
             <trans-unit id="header.lang">
                 <source>header.lang</source>
-                <target>语言</target>
+                <target>Language</target>
             </trans-unit>
             <trans-unit id="header.zh">
                 <source>header.zh</source>

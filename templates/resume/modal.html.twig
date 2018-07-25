@@ -9,7 +9,7 @@
         </button>
       </div>
       <div class="modal-body">
-        {{ 'timeline.exp.2016.detail.body'|trans({}, 'resume')|raw }}
+        {{ include('resume/exp/detail.2016.' ~ app.request.locale ~ '.twig') }}
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-dismiss="modal">{{ 'base.close'|trans({}, 'base') }}</button>
@@ -29,7 +29,7 @@
         </button>
       </div>
       <div class="modal-body">
-        {{ 'timeline.exp.2013.detail.body'|trans({}, 'resume')|raw }}
+          {{ include('resume/exp/detail.2013.' ~ app.request.locale ~ '.twig') }}
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-dismiss="modal">{{ 'base.close'|trans({}, 'base') }}</button>
@@ -49,7 +49,7 @@
         </button>
       </div>
       <div class="modal-body">
-        {{ 'timeline.exp.2013b.detail.body'|trans({}, 'resume')|raw }}
+          {{ include('resume/exp/detail.2013b.' ~ app.request.locale ~ '.twig') }}
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-dismiss="modal">{{ 'base.close'|trans({}, 'base') }}</button>
@@ -69,7 +69,7 @@
         </button>
       </div>
       <div class="modal-body">
-        {{ 'timeline.exp.2012.detail.body'|trans({}, 'resume')|raw }}
+          {{ include('resume/exp/detail.2012.' ~ app.request.locale ~ '.twig') }}
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-primary" data-dismiss="modal">{{ 'base.close'|trans({}, 'base') }}</button>

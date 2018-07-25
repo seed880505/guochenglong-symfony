@@ -1,3 +1,25 @@
 swiftmailer:
-    url: '%env(MAILER_URL)%'
-    spool: { type: 'memory' }
+    default_mailer: default
+    mailers:
+        default:
+            url: '%env(MAILER_URL)%'
+            spool:
+                type:                 file
+                path:                 '%kernel.cache_dir%/swiftmailer/spool'
+                # Used by "service" type
+                id:                   null
+            delivery_addresses:   []
+            transport: smtp
+            command: '/usr/sbin/sendmail -bs'
+            username: admin@guochenglong.com
+            password: 80PoCtA6
+            host: li451-143.guochenglong.com
+            port: 25
+            timeout: 30
+            source_ip: 50.116.9.143
+            local_domain: guochenglong.com
+            encryption: null
+            auth_mode: login
+            logging: true
+            delivery_whitelist: {  }
+
