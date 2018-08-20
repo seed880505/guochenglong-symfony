@@ -32,7 +32,7 @@
             </trans-unit>
             <trans-unit id="cv.blog">
                 <source>cv.blog</source>
-                <target>https://blog.guochenglong.com</target>
+                <target>http://blog.guochenglong.com</target>
             </trans-unit>
             <trans-unit id="cv.blog.tlp">
                 <source>cv.blog.tlp</source>
@@ -56,7 +56,7 @@
             </trans-unit>
             <trans-unit id="cv.gitea">
                 <source>cv.gitea</source>
-                <target>https://gitea.guochenglong.com/explore/repos</target>
+                <target>http://gitea.guochenglong.com/explore/repos</target>
             </trans-unit>
             <trans-unit id="cv.gitea.tlp">
                 <source>cv.gitea.tlp</source>
