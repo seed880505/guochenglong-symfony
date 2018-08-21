@@ -22,9 +22,6 @@ swiftmailer:
             stream_options:       []
             auth_mode:            null
             sender_address:       ~
-            antiflood:
-            threshold:            99
-            sleep:                0
             logging:              true
             delivery_whitelist:   []
 
