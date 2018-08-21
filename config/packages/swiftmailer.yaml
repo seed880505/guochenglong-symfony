@@ -9,19 +9,10 @@ swiftmailer:
                 # Used by "service" type
                 id:               null
             delivery_addresses:   []
-            transport:            smtp
+            transport:            sendmail
             command:              '/usr/sbin/sendmail -bs'
-            timeout:              30
             local_domain:         guochenglong.com
-            encryption:           null
-            username:             null
-            password:             null
-            host:                 localhost
-            port:                 null
-            source_ip:            50.116.9.143
-            stream_options:       []
-            auth_mode:            null
-            sender_address:       ~
+            sender_address:       'chenglong.guo@foxmail.com'
             logging:              true
             delivery_whitelist:   []
 
