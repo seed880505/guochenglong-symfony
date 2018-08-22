@@ -2,11 +2,7 @@ swiftmailer:
     default_mailer: default
     mailers:
         default:
-            delivery_addresses:   []
-            transport:            sendmail
-            command:              '/usr/sbin/sendmail -bs'
-            local_domain:         guochenglong.com
+            url:                  '%env(MAILER_URL)%'
             sender_address:       'chenglong.guo@foxmail.com'
-            logging:              true
-            delivery_whitelist:   []
+            timeout:              10
 
