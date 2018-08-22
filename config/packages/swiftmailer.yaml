@@ -4,9 +4,19 @@ swiftmailer:
         default:
             url:                  '%env(MAILER_URL)%'
             sender_address:       'chenglong.guo@foxmail.com'
-            timeout:              10
+            command: '/usr/sbin/sendmail -bs'
+            transport: smtp
+            username: site@guochenglong.com
+            password: gh4KFjaT
+            host: li451-143.guochenglong.com
+            port: 465
+            timeout: 30
+            encryption: ssl
+            auth_mode: login
+            logging: true
+            source_ip: 50.116.9.143
+            local_domain: guochenglong.com
             stream_options:
                 ssl:
                     verify_peer:      false
                     verify_peer_name: false
-
