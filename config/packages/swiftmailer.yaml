@@ -3,6 +3,4 @@ swiftmailer:
     mailers:
         default:
             url:                  '%env(MAILER_URL)%'
-            sender_address:       'chenglong.guo@foxmail.com'
             timeout: 30
-            local_domain: guochenglong.com
