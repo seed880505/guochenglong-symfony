@@ -31,29 +31,32 @@ class ResumeController extends Controller
      */
     public function contactEmailAction(Request $request, \Swift_Mailer $mailer)
     {
-        $email = $request->request->get('c_y_email');
+        $emailFrom = $request->request->get('c_y_email');
         $subject = $request->request->get('c_y_subject');
         $message = $request->request->get('c_y_message');
         $cc = $request->request->get('c_y_cc');
 
         // empty
-        if (empty($email) || empty($subject) || empty($message)) {
+        if (empty($emailFrom) || empty($subject) || empty($message)) {
             throw new \Exception('Content could not be empty.', 500);
         }
 
         // email
-        if (filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+        if (filter_var($emailFrom, FILTER_VALIDATE_EMAIL) === false) {
             throw new \Exception('E-mail is not valid.', 500);
         }
 
         // send
-        $message = (new \Swift_Message($subject))
-            ->setFrom($email)
-            ->setTo($this->getParameter('mailer_to'))
-            ->setBody($message, 'text/plain');
+        $emailsTo = [$this->getParameter('mailer_to')];
+
         if (!empty($cc)) {
-            $message->setCc($email);
+            $emailsTo[] = $emailFrom;
         }
+
+        $message = (new \Swift_Message($subject))
+            ->setFrom($emailFrom)
+            ->setTo($emailsTo)
+            ->setBody($message, 'text/plain');
 
         // result
         $sent_result = $mailer->send($message) > 0 ? 1 : 0;
