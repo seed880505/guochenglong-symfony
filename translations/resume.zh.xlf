@@ -24,7 +24,11 @@
             </trans-unit>
             <trans-unit id="cv.website">
                 <source>cv.website</source>
-                <target>https://guochenglong.com</target>
+                <target>http://blog.guochenglong.com</target>
+            </trans-unit>
+            <trans-unit id="cv.wechat">
+                <source>cv.wechat</source>
+                <target>微信号：seed880505</target>
             </trans-unit>
             <trans-unit id="cv.location">
                 <source>cv.location</source>
@@ -76,7 +80,7 @@
             </trans-unit>
             <trans-unit id="summary.body">
                 <source>summary.body</source>
-                <target>五年全职web应用开发经验，精于前端，对后端、数据层也有深度挖掘。参与过许多大型企业项目的敏捷开发，擅长前端工程化，后端模块化和渐进式web应用(PWA)设计。为人随和，乐于分享，愿意承担更多责任，给公司带来利益，给自己带来更多的提升空间。</target>
+                <target>2011年毕业于北京工业大学计算机科学与技术专业，获得学士学位。通过学校交换项目，在法国巴黎EFREI工程师学院学习信息系统架构设计，2013年毕业，获得硕士学位。此后在法国作为Web应用开发工程师工作了5年多。精于前端，对后端、数据层也有深度挖掘。参与过许多大型企业项目的敏捷开发，擅长前端工程化，后端模块化和渐进式web应用 (PWA，Progressive Web Application) 设计。为人随和，乐于分享，愿意承担更多责任，给公司带来利益，也给自己带来更多的提升空间。</target>
             </trans-unit>
             <trans-unit id="summary.btn.dlcv">
                 <source>summary.btn.dlcv</source>
@@ -226,6 +230,42 @@
             <trans-unit id="timeline.edu.2007.summary">
                 <source>timeline.edu.2007.summary</source>
                 <target>211重点大学，超过一本线35分被录取，毕业于牡丹江一中。</target>
+            </trans-unit>
+            <trans-unit id="keywords.title">
+                <source>keywords.title</source>
+                <target>关键词</target>
+            </trans-unit>
+            <trans-unit id="keywords.type">
+                <source>keywords.type</source>
+                <target>类别</target>
+            </trans-unit>
+            <trans-unit id="keywords.name">
+                <source>keywords.name</source>
+                <target>名称</target>
+            </trans-unit>
+            <trans-unit id="keywords.program">
+                <source>keywords.program</source>
+                <target>编程语言</target>
+            </trans-unit>
+            <trans-unit id="keywords.framework">
+                <source>keywords.framework</source>
+                <target>技术框架</target>
+            </trans-unit>
+            <trans-unit id="keywords.tool">
+                <source>keywords.tool</source>
+                <target>开发工具</target>
+            </trans-unit>
+            <trans-unit id="keywords.project">
+                <source>keywords.project</source>
+                <target>项目管理</target>
+            </trans-unit>
+            <trans-unit id="keywords.system">
+                <source>keywords.system</source>
+                <target>开发环境</target>
+            </trans-unit>
+            <trans-unit id="keywords.language">
+                <source>keywords.language</source>
+                <target>工作语言</target>
             </trans-unit>
             <trans-unit id="skills.title">
                 <source>skills.title</source>

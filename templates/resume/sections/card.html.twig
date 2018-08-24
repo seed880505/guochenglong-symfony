@@ -13,14 +13,18 @@
                             <a href="mailto:{{ 'cv.email'|trans({}, 'resume') }}">{{ 'cv.email'|trans({}, 'resume') }}</a>
                         </li>
                         <li class="list-group-item p-2">
-                            <i class="fas fa-globe fa-lg fa-fw"></i>
-                            <a href="{{ 'cv.website'|trans({}, 'resume') }}"
-                               target="_self">{{ 'cv.website'|trans({}, 'resume') }}</a>
+                            <i class="fab fa-weixin fa-lg fa-fw"></i>
+                            {{ 'cv.wechat'|trans({}, 'resume') }}
                         </li>
                         <li class="list-group-item p-2">
+                            <i class="fas fa-globe fa-lg fa-fw"></i>
+                            <a href="{{ 'cv.website'|trans({}, 'resume') }}"
+                               target="_blank">{{ 'cv.website'|trans({}, 'resume') }}</a>
+                        </li>
+                        {#<li class="list-group-item p-2">
                             <i class="fas fa-map-marker-alt fa-lg fa-fw"></i>
                             {{ 'cv.location'|trans({}, 'resume') }}
-                        </li>
+                        </li>#}
                     </ul>
                 </div>
 

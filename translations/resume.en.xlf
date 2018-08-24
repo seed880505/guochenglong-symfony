@@ -24,7 +24,11 @@
             </trans-unit>
             <trans-unit id="cv.website">
                 <source>cv.website</source>
-                <target>https://guochenglong.com</target>
+                <target>http://blog.guochenglong.com</target>
+            </trans-unit>
+            <trans-unit id="cv.wechat">
+                <source>cv.wechat</source>
+                <target>Wechat ID: seed880505</target>
             </trans-unit>
             <trans-unit id="cv.location">
                 <source>cv.location</source>
@@ -226,6 +230,42 @@
             <trans-unit id="timeline.edu.2007.summary">
                 <source>timeline.edu.2007.summary</source>
                 <target>211重点大学，超过一本线35分被录取，毕业于牡丹江一中。</target>
+            </trans-unit>
+            <trans-unit id="keywords.title">
+                <source>keywords.title</source>
+                <target>关键词</target>
+            </trans-unit>
+            <trans-unit id="keywords.type">
+                <source>keywords.type</source>
+                <target>类别</target>
+            </trans-unit>
+            <trans-unit id="keywords.name">
+                <source>keywords.name</source>
+                <target>名称</target>
+            </trans-unit>
+            <trans-unit id="keywords.program">
+                <source>keywords.program</source>
+                <target>编程语言</target>
+            </trans-unit>
+            <trans-unit id="keywords.framework">
+                <source>keywords.framework</source>
+                <target>技术框架</target>
+            </trans-unit>
+            <trans-unit id="keywords.tool">
+                <source>keywords.tool</source>
+                <target>开发工具</target>
+            </trans-unit>
+            <trans-unit id="keywords.project">
+                <source>keywords.project</source>
+                <target>项目管理</target>
+            </trans-unit>
+            <trans-unit id="keywords.system">
+                <source>keywords.system</source>
+                <target>开发环境</target>
+            </trans-unit>
+            <trans-unit id="keywords.language">
+                <source>keywords.language</source>
+                <target>工作语言</target>
             </trans-unit>
             <trans-unit id="skills.title">
                 <source>skills.title</source>
