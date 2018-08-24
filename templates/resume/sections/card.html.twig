@@ -1,0 +1,53 @@
+<!-- Section card -->
+<section class="section-cv-card">
+    <div class="container">
+        <div class="card">
+            <div class="card-body row m-0">
+                <div class="col-12 col-md-8">
+                    <h1 class="card-title font-weight-bold">{{ 'cv.fullname'|trans({}, 'resume') }}</h1>
+                    <h5 class="card-subtitle">{{ 'cv.title'|trans({}, 'resume') }}</h5>
+                    <hr>
+                    <ul class="list-group">
+                        <li class="list-group-item p-2">
+                            <i class="fas fa-envelope fa-lg fa-fw"></i>
+                            <a href="mailto:{{ 'cv.email'|trans({}, 'resume') }}">{{ 'cv.email'|trans({}, 'resume') }}</a>
+                        </li>
+                        <li class="list-group-item p-2">
+                            <i class="fas fa-globe fa-lg fa-fw"></i>
+                            <a href="{{ 'cv.website'|trans({}, 'resume') }}"
+                               target="_self">{{ 'cv.website'|trans({}, 'resume') }}</a>
+                        </li>
+                        <li class="list-group-item p-2">
+                            <i class="fas fa-map-marker-alt fa-lg fa-fw"></i>
+                            {{ 'cv.location'|trans({}, 'resume') }}
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <img src="{{ asset('build/images/profile.jpg') }}" class="mx-auto d-block" alt="Profile image">
+                </div>
+
+                <div class="col-12 mt-3">
+                    <button type="button" class="btn btn-primary bmd-btn-fab bmd-btn-fab-sm blog"
+                            onclick="window.open('{{ 'cv.blog'|trans({}, 'resume') }}')"
+                            data-toggle="tooltip" title="{{ 'cv.blog.tlp'|trans({}, 'resume') }}">
+                        <i class="fab fa-joomla"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-primary bmd-btn-fab bmd-btn-fab-sm linkedin"
+                            onclick="window.open('{{ 'cv.linkedin'|trans({}, 'resume') }}')"
+                            data-toggle="tooltip" title="{{ 'cv.linkedin.tlp'|trans({}, 'resume') }}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </button>
+
+                    <button type="button" class="btn btn-primary bmd-btn-fab bmd-btn-fab-sm github"
+                            onclick="window.open('{{ 'cv.gitea'|trans({}, 'resume') }}')"
+                            data-toggle="tooltip" title="{{ 'cv.gitea.tlp'|trans({}, 'resume') }}">
+                        <i class="fab fa-github-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

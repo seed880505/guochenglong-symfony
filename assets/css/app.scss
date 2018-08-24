@@ -10,6 +10,9 @@ $section-space: 3rem;
 $section-bloc-space: 1rem;
 
 /* ---------------------- Header ---------------------- */
+$faq-musis-co: #f24763;
+$faq-music-bg: #f5edf1;
+
 .navbar {
   padding-top: .1rem;
   padding-bottom: .1rem;
@@ -22,6 +25,21 @@ $section-bloc-space: 1rem;
   }
   a.nav-link {
     color: #f5f5f5;
+  }
+  .bmd-btn-fab.music {
+    width: 2rem;
+    min-width: 2rem;
+    height: 2rem;
+    margin: 0 0 0 1rem;
+    background-color: $faq-music-bg;
+    border: 1px solid darken($faq-musis-co, 10%);
+    &:hover {
+      background-color: lighten($faq-music-bg, 10%);
+    }
+    i {
+      font-size: 1rem;
+      color: $faq-musis-co;
+    }
   }
 }
 

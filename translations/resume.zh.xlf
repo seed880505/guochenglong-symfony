@@ -34,6 +34,10 @@
                 <source>cv.blog</source>
                 <target>http://blog.guochenglong.com</target>
             </trans-unit>
+            <trans-unit id="cv.music.tlp">
+                <source>cv.music.tlp</source>
+                <target>李荣浩-老街</target>
+            </trans-unit>
             <trans-unit id="cv.blog.tlp">
                 <source>cv.blog.tlp</source>
                 <target>我的技术备忘录</target>

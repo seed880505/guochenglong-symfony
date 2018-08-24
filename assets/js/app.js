@@ -5,7 +5,7 @@ require('../css/app.scss');
 
 // import the function from console.js (the .js extension is optional)
 // ./ (or ../) means to look for a local file
-var mysole = require('./console');
+var misc = require('./misc');
 
 // loads the jquery package from node_modules
 require('jquery');
@@ -19,11 +19,14 @@ require('bootstrap-material-design/dist/js/bootstrap-material-design.min');
 // starts
 $(document).ready(function () {
   // welcome message
-  console.log(mysole('visitor'));
+  console.log(misc.myConsole('visitor'));
 
   // init MDB
   $('body').bootstrapMaterialDesign();
 
   // init bootstrap tooltip
   $('[data-toggle="tooltip"]').tooltip();
+
+  // init music
+  misc.initMusic('music-play');
 });

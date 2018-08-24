@@ -24,6 +24,13 @@
                 </div>
             </li>#}
         </ul>
+
+        <button type="button" class="btn bmd-btn-fab bmd-btn-fab-sm music"
+                id="music-play"
+                data-toggle="tooltip" title="{{ 'cv.music.tlp'|trans({}, 'resume') }}">
+            <i class="fas fa-music"></i>
+        </button>
+
         <div class="dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                aria-expanded="false">
@@ -38,5 +45,10 @@
                 <a class="dropdown-item" href="{{ path('resume_page', {'_locale': 'fr'}) }}">{{ "header.fr"|trans({}, 'base') }}</a>
             </div>
         </div>
+
+        <audio id="music-src" controls loop preload="none" style="display:none;">
+            <source src="{{ asset('files/old_street_Li_Ronghao.mp3') }}" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
     </div>
 </nav>

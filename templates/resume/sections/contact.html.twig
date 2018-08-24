@@ -1,0 +1,92 @@
+<!-- Section contact me -->
+<section class="section-contact-me" id="section_contact">
+    <div class="container text-center text-uppercase section-title">
+        <i class="fas fa-at fa-2x align-middle"></i>
+        &nbsp;
+        <span class="h2 align-middle">{{ 'contact.title'|trans({}, 'resume') }}</span>
+    </div>
+
+    <div class="container">
+        <div class="row m-0">
+            <div class="col-12 col-md-6 section-contact-left">
+                <div id="contactIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#contactIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#contactIndicators" data-slide-to="1"></li>
+                        <li data-target="#contactIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner h-100">
+                        <div class="carousel-item active h-100">
+                            {% set slide1Img = asset('build/images/ionic.jpg') %}
+                            <div class="h-100 w-100 contact-carousel-item"
+                                 style="background-image:url('{{ slide1Img }}')"></div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Ionic: The top open source framework for building web progress apps.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100">
+                            {% set slide2Img = asset('build/images/ionic.jpg') %}
+                            <div class="h-100 w-100 contact-carousel-item"
+                                 style="background-image:url('{{ slide2Img }}')"></div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Angular: Progressive Web Apps.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100">
+                            {% set slide3Img = asset('build/images/ionic.jpg') %}
+                            <div class="h-100 w-100 contact-carousel-item"
+                                 style="background-image:url('{{ slide3Img }}')"></div>
+                            <div class="carousel-caption d-none d-md-block">
+                                <p>Symfony: Sets of reusable PHP components and a PHP framework for web
+                                    projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#contactIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">{{ 'contact.last'|trans({}, 'resume') }}</span>
+                    </a>
+                    <a class="carousel-control-next" href="#contactIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">{{ 'contact.next'|trans({}, 'resume') }}</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 section-contact-right">
+                <div class="card">
+                    <div class="card-body">
+                        <form method="post" action="{{ path('contact_email') }}">
+                            <div class="form-group">
+                                <label for="c_y_email">{{ 'contact.your_email'|trans({}, 'resume') }}</label>
+                                <input type="email" class="form-control" id="c_y_email" name="c_y_email"
+                                       aria-describedby="c_y_emailHelp" required>
+                                <small id="c_y_emailHelp"
+                                       class="form-text text-muted">{{ 'contact.your_email_tip'|trans({}, 'resume') }}</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="c_y_subject">{{ 'contact.your_subject'|trans({}, 'resume') }}</label>
+                                <input type="text" class="form-control" id="c_y_subject" name="c_y_subject"
+                                       required>
+                            </div>
+                            <div class="form-group">
+                                <label for="c_y_message">{{ 'contact.your_message'|trans({}, 'resume') }}</label>
+                                <textarea class="form-control" id="c_y_message" name="c_y_message" rows="3"
+                                          required></textarea>
+                            </div>
+                            <div class="checkbox">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input" id="c_y_cc" name="c_y_cc" checked>
+                                    {{ 'contact.your_cc'|trans({}, 'resume') }}
+                                </label>
+                            </div>
+                            <div class="mt-4 text-right">
+                                <button type="submit"
+                                        class="btn btn-raised btn-primary">{{ 'contact.send'|trans({}, 'resume') }}</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
