@@ -5,9 +5,9 @@ namespace App\Controller;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
-class ResumeController extends Controller
+class ResumeController extends AbstractController
 {
     /**
      * @Route("/{_locale}", name="resume_page", requirements={"_locale"="en|fr|zh"}, defaults={"_locale"="zh"})

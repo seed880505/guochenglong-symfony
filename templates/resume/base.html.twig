@@ -14,20 +14,19 @@
     <link rel="apple-touch-icon" href="{{ asset('apple-touch-icon.png') }}">
     <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}"/>
 
-    <!-- app.css -->
-    <link rel="stylesheet" href="{{ asset('build/app.css') }}">
-
-    {% block stylesheets %}{% endblock %}
+    {% block stylesheets %}
+        {{ encore_entry_link_tags('app') }}
+    {% endblock %}
 </head>
+
 <body>
 <!-- Body -->
 {% include "resume/header.html.twig" %}
 {% block body %}{% endblock %}
 {% include "resume/footer.html.twig" %}
 
-<!-- app.js -->
-<script src="{{ asset('build/app.js') }}"></script>
-
-{% block javascripts %}{% endblock %}
+{% block javascripts %}
+    {{ encore_entry_script_tags('app') }}
+{% endblock %}
 </body>
 </html>

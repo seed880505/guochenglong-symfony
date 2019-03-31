@@ -1,14 +1,18 @@
 {
-    "devDependencies": {
-        "@symfony/webpack-encore": "^0.20.0",
-        "autoprefixer": "^9.0.0",
-        "node-sass": "^4.9.0",
-        "postcss-loader": "^2.1.6",
-        "sass-loader": "^7.0.1",
-        "@fortawesome/fontawesome-free-webfonts": "1.0.9",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.8.1",
         "bootstrap-material-design": "4.1.1",
-        "jquery": "3.2.1",
-        "popper.js": "1.12.6"
+        "jquery": "3.3.1",
+        "popper.js": "1.14.7"
+    },
+    "devDependencies": {
+        "@symfony/webpack-encore": "^0.26.0",
+        "autoprefixer": "^9.5.0",
+        "core-js": "^3.0.0",
+        "node-sass": "^4.11.0",
+        "postcss-loader": "^3.0.0",
+        "sass-loader": "7.0.1",
+        "webpack-notifier": "^1.6.0"
     },
     "license": "UNLICENSED",
     "private": true,
@@ -16,6 +20,12 @@
         "dev-server": "encore dev-server",
         "dev": "encore dev",
         "watch": "encore dev --watch",
-        "build": "encore production"
-    }
+        "build": "encore production --progress"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "maintained node versions",
+        "not dead"
+    ]
 }

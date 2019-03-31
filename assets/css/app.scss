@@ -1,7 +1,7 @@
 /* ---------------------- Imports ---------------------- */
-@import "~@fortawesome/fontawesome-free-webfonts/css/fontawesome.css";
-@import "~@fortawesome/fontawesome-free-webfonts/css/fa-solid.css";
-@import "~@fortawesome/fontawesome-free-webfonts/css/fa-brands.css";
+@import "~@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "~@fortawesome/fontawesome-free/css/solid.css";
+@import "~@fortawesome/fontawesome-free/css/brands.css";
 @import "~bootstrap-material-design/dist/css/bootstrap-material-design.min.css";
 
 /* ---------------------- Globals ---------------------- */
@@ -63,7 +63,7 @@ body {
 /* ---------------------- Section cover ---------------------- */
 .section-cover {
   height: 400px;
-  background-image: url("../img/cover.jpg");
+  background-image: url("../images/cover.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;

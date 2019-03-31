@@ -3,12 +3,12 @@ require('../css/app.scss');
 
 // ...rest of JavaScript code here
 
+// loads the jquery package from node_modules
+var $ = require('jquery');
+
 // import the function from console.js (the .js extension is optional)
 // ./ (or ../) means to look for a local file
 var misc = require('./misc');
-
-// loads the jquery package from node_modules
-require('jquery');
 
 // popper.js as global variable
 global.Popper = require('popper.js').default;
