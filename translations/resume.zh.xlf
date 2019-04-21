@@ -24,19 +24,19 @@
             </trans-unit>
             <trans-unit id="cv.website">
                 <source>cv.website</source>
-                <target>http://blog.guochenglong.com</target>
+                <target>http://guochenglong.com</target>
             </trans-unit>
             <trans-unit id="cv.wechat">
                 <source>cv.wechat</source>
-                <target>微信号：seed880505</target>
+                <target>微信：seed880505</target>
             </trans-unit>
             <trans-unit id="cv.location">
                 <source>cv.location</source>
-                <target>法国，巴黎</target>
+                <target>中国，深圳</target>
             </trans-unit>
             <trans-unit id="cv.blog">
                 <source>cv.blog</source>
-                <target>http://blog.guochenglong.com</target>
+                <target>https://segmentfault.com/u/guochenglong</target>
             </trans-unit>
             <trans-unit id="cv.music.tlp">
                 <source>cv.music.tlp</source>
@@ -44,7 +44,7 @@
             </trans-unit>
             <trans-unit id="cv.blog.tlp">
                 <source>cv.blog.tlp</source>
-                <target>我的技术备忘录</target>
+                <target>技术备忘录</target>
             </trans-unit>
             <trans-unit id="cv.linkedin">
                 <source>cv.linkedin</source>
@@ -52,7 +52,7 @@
             </trans-unit>
             <trans-unit id="cv.linkedin.tlp">
                 <source>cv.linkedin.tlp</source>
-                <target>我的领英简历</target>
+                <target>领英简历</target>
             </trans-unit>
             <trans-unit id="cv.github">
                 <source>cv.github</source>
@@ -60,7 +60,7 @@
             </trans-unit>
             <trans-unit id="cv.github.tlp">
                 <source>cv.github.tlp</source>
-                <target>我的Github开源代码</target>
+                <target>GitHub开源代码</target>
             </trans-unit>
             <trans-unit id="cv.gitea">
                 <source>cv.gitea</source>
@@ -68,7 +68,7 @@
             </trans-unit>
             <trans-unit id="cv.gitea.tlp">
                 <source>cv.gitea.tlp</source>
-                <target>我的私有Git服务</target>
+                <target>私有Git服务</target>
             </trans-unit>
             <trans-unit id="cv.gist">
                 <source>cv.gist</source>
@@ -98,9 +98,33 @@
                 <source>timeline.exp.title</source>
                 <target>工作经历</target>
             </trans-unit>
+            <trans-unit id="timeline.exp.2018.job">
+                <source>timeline.exp.2018.job</source>
+                <target>前端技术经理、子产品开发负责人</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2018.duration">
+                <source>timeline.exp.2018.duration</source>
+                <target>2018年11月 - 至今</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2018.company">
+                <source>timeline.exp.2018.company</source>
+                <target>平安科技有限公司，中国深圳</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2018.summary">
+                <source>timeline.exp.2018.summary</source>
+                <target><![CDATA[<ul class="pl-3"><li>负责前端团队架构搭建、技术研究、项目开发、队伍管理。</li><li>负责子产品线的数据结构设计，前、后端开发进度管理。</li><li>研究开发泛图谱前端业务组件库，高度复用前端组件。</li></ul>]]></target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2018.detail.title">
+                <source>timeline.exp.2018.detail.title</source>
+                <target>前端技术经理、子产品开发负责人</target>
+            </trans-unit>
+            <trans-unit id="timeline.exp.2018.detail.body">
+                <source>timeline.exp.2018.detail.body</source>
+                <target><![CDATA[]]></target>
+            </trans-unit>
             <trans-unit id="timeline.exp.2016.job">
                 <source>timeline.exp.2016.job</source>
-                <target>渐进式PWA应用全栈开发工程师</target>
+                <target>高级web应用开发工程师</target>
             </trans-unit>
             <trans-unit id="timeline.exp.2016.duration">
                 <source>timeline.exp.2016.duration</source>
@@ -108,15 +132,15 @@
             </trans-unit>
             <trans-unit id="timeline.exp.2016.company">
                 <source>timeline.exp.2016.company</source>
-                <target>PI Electronique 电子科技公司，法国巴黎</target>
+                <target>PI Electronique 圆周率电子科技公司，法国巴黎</target>
             </trans-unit>
             <trans-unit id="timeline.exp.2016.summary">
                 <source>timeline.exp.2016.summary</source>
-                <target><![CDATA[<ul class="pl-3"><li>开发基于Angular、Ionic技术的PWA应用程序。</li><li>开发基于Symfony框架下的后台服务。</li><li>项目单元测试，持续化部署，敏捷开发管理。</li></ul>]]></target>
+                <target><![CDATA[<ul class="pl-3"><li>负责设计开发渐进式web应用程序（PWA），适配桌面、移动端，并且部署于iOS、Android平台。</li><li>开发PHP框架Symfony的后端接口模块，提高接口性能。</li><li>设计产品数据结构，结合MySQL数据库特点，加快查询。</li></ul>]]></target>
             </trans-unit>
             <trans-unit id="timeline.exp.2016.detail.title">
                 <source>timeline.exp.2016.detail.title</source>
-                <target>渐进式PWA应用全栈开发工程师</target>
+                <target>高级web应用开发工程师</target>
             </trans-unit>
             <trans-unit id="timeline.exp.2016.detail.body">
                 <source>timeline.exp.2016.detail.body</source>
@@ -128,15 +152,15 @@
             </trans-unit>
             <trans-unit id="timeline.exp.2013.duration">
                 <source>timeline.exp.2013.duration</source>
-                <target>2013年11月 - 2016年6月</target>
+                <target>2013年10月 - 2016年5月</target>
             </trans-unit>
             <trans-unit id="timeline.exp.2013.company">
                 <source>timeline.exp.2013.company</source>
-                <target>TANGRAM 软件开发公司，法国巴黎</target>
+                <target>TANGRAM 七巧板软件咨询公司，法国巴黎</target>
             </trans-unit>
             <trans-unit id="timeline.exp.2013.summary">
                 <source>timeline.exp.2013.summary</source>
-                <target><![CDATA[<ul class="pl-3"><li>开发基于Sencha ExtJS前端MVC框架下的web应用。</li><li>开发基于Zend框架下的后台服务接口。</li><li>大型门户网站开发，搜索引擎优化，流量数据统计。</li></ul>]]></target>
+                <target><![CDATA[<ul class="pl-3"><li>负责开发MVC模式的前端JavaScript应用，基于ExtJS框架。</li><li>开发基于Joomla的内容管理系统，优化SEO搜索引擎。</li><li>开发基于PHP Zend框架的后端API接口，设计MySQL数据库，优化接口性能。</li></ul>]]></target>
             </trans-unit>
             <trans-unit id="timeline.exp.2013.detail.title">
                 <source>timeline.exp.2013.detail.title</source>
@@ -309,11 +333,11 @@
             </trans-unit>
             <trans-unit id="skills.2th.title">
                 <source>skills.2th.title</source>
-                <target>编程语言</target>
+                <target>框架运用</target>
             </trans-unit>
             <trans-unit id="skills.2th.1.name">
                 <source>skills.2th.1.name</source>
-                <target>JavaScript, CSS, HTML</target>
+                <target>Vuejs, Angular, Extjs</target>
             </trans-unit>
             <trans-unit id="skills.2th.1.pert">
                 <source>skills.2th.1.pert</source>
@@ -321,7 +345,7 @@
             </trans-unit>
             <trans-unit id="skills.2th.2.name">
                 <source>skills.2th.2.name</source>
-                <target>TypeScript, Sass, Angular, PHP, SQL</target>
+                <target>Ionic, Cordova, Webpack</target>
             </trans-unit>
             <trans-unit id="skills.2th.2.pert">
                 <source>skills.2th.2.pert</source>
@@ -329,7 +353,7 @@
             </trans-unit>
             <trans-unit id="skills.2th.3.name">
                 <source>skills.2th.3.name</source>
-                <target>Symfony, Zend, CodeIgniter, Joomla</target>
+                <target>Symfony, Zend, Joomla</target>
             </trans-unit>
             <trans-unit id="skills.2th.3.pert">
                 <source>skills.2th.3.pert</source>
@@ -337,19 +361,19 @@
             </trans-unit>
             <trans-unit id="skills.2th.4.name">
                 <source>skills.2th.4.name</source>
-                <target>Ionic, Cordova</target>
+                <target>MySQL, PostgreSQL</target>
             </trans-unit>
             <trans-unit id="skills.2th.4.pert">
                 <source>skills.2th.4.pert</source>
-                <target>80</target>
+                <target>70</target>
             </trans-unit>
             <trans-unit id="skills.3th.title">
                 <source>skills.3th.title</source>
-                <target>个人能力</target>
+                <target>综合能力</target>
             </trans-unit>
             <trans-unit id="skills.3th.1.name">
                 <source>skills.3th.1.name</source>
-                <target>团队合作能力</target>
+                <target>团队协作</target>
             </trans-unit>
             <trans-unit id="skills.3th.1.pert">
                 <source>skills.3th.1.pert</source>
@@ -357,7 +381,7 @@
             </trans-unit>
             <trans-unit id="skills.3th.2.name">
                 <source>skills.3th.2.name</source>
-                <target>拼搏向上能力</target>
+                <target>严谨负责</target>
             </trans-unit>
             <trans-unit id="skills.3th.2.pert">
                 <source>skills.3th.2.pert</source>
@@ -365,7 +389,7 @@
             </trans-unit>
             <trans-unit id="skills.3th.3.name">
                 <source>skills.3th.3.name</source>
-                <target>语言沟通能力</target>
+                <target>语言沟通</target>
             </trans-unit>
             <trans-unit id="skills.3th.3.pert">
                 <source>skills.3th.3.pert</source>
@@ -373,7 +397,7 @@
             </trans-unit>
             <trans-unit id="skills.3th.4.name">
                 <source>skills.3th.4.name</source>
-                <target>创新能力</target>
+                <target>技术创新</target>
             </trans-unit>
             <trans-unit id="skills.3th.4.pert">
                 <source>skills.3th.4.pert</source>

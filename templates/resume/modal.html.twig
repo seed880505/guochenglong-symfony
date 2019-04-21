@@ -1,4 +1,23 @@
-<!-- EXP 2016 - PI Electronqiue -->
+<!-- EXP 2018 - PingAn Tech -->
+<div class="modal fade" id="detail-exp-2018" tabindex="-1" role="dialog" aria-labelledby="label-exp-2018" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="label-exp-2018">{{ 'timeline.exp.2018.detail.title'|trans({}, 'resume') }}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {{ include('resume/details/detail.2018.' ~ app.request.locale ~ '.twig') }}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">{{ 'base.close'|trans({}, 'base') }}</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="modal fade" id="detail-exp-2016" tabindex="-1" role="dialog" aria-labelledby="label-exp-2016" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
