@@ -173,7 +173,7 @@
             </trans-unit>
             <trans-unit id="timeline.exp.2013b.job">
                 <source>timeline.exp.2013b.job</source>
-                <target>实习生 - web应用前端界面开发</target>
+                <target>前端开发 - 实习</target>
             </trans-unit>
             <trans-unit id="timeline.exp.2013b.duration">
                 <source>timeline.exp.2013b.duration</source>
@@ -185,11 +185,11 @@
             </trans-unit>
             <trans-unit id="timeline.exp.2013b.summary">
                 <source>timeline.exp.2013b.summary</source>
-                <target><![CDATA[<ul class="pl-3"><li>开发前端可视化页面，基于jQuery/UI、D3js等工具库。</li><li>协助定义后端API接口，测试前端流畅性。</li><li>体验团队协作，熟悉Maven、Hadoop/HBase开发环境。</li></ul>]]></target>
+                <target><![CDATA[<ul class="pl-3"><li>运用JavaScript/css/html实现高性能、使用简洁的用户交互逻辑。</li><li>丰富数据可视化页面，基于jQuery/UI、D3js等工具库。</li><li>协助定义后端API接口，测试前端流畅性。</li></ul>]]></target>
             </trans-unit>
             <trans-unit id="timeline.exp.2013b.detail.title">
                 <source>timeline.exp.2013b.detail.title</source>
-                <target>实习生 - web应用前端界面开发</target>
+                <target>前端开发 - 实习</target>
             </trans-unit>
             <trans-unit id="timeline.exp.2013b.detail.body">
                 <source>timeline.exp.2013b.detail.body</source>
@@ -197,7 +197,7 @@
             </trans-unit>
             <trans-unit id="timeline.exp.2012.job">
                 <source>timeline.exp.2012.job</source>
-                <target>实习生 - 网站后端服务开发</target>
+                <target>后端开发 - 实习</target>
             </trans-unit>
             <trans-unit id="timeline.exp.2012.duration">
                 <source>timeline.exp.2012.duration</source>
@@ -209,11 +209,11 @@
             </trans-unit>
             <trans-unit id="timeline.exp.2012.summary">
                 <source>timeline.exp.2012.summary</source>
-                <target><![CDATA[<ul class="pl-3"><li>协助开发后端PHP服务，基于CodeIgniter框架。</li><li>协助开发网站移动端版本，基于jQuery Mobile工具。</li><li>使用谷歌地图、Facebook服务接口，嵌入网站。</li></ul>]]></target>
+                <target><![CDATA[<ul class="pl-3"><li>开发后端PHP服务，基于CodeIgniter框架。</li><li>开发网站移动端版本，基于jQuery Mobile工具。</li><li>使用谷歌地图、Facebook服务接口，嵌入网站。</li></ul>]]></target>
             </trans-unit>
             <trans-unit id="timeline.exp.2012.detail.title">
                 <source>timeline.exp.2012.detail.title</source>
-                <target>实习生 - 网站后端服务开发</target>
+                <target>后端开发 - 实习</target>
             </trans-unit>
             <trans-unit id="timeline.exp.2012.detail.body">
                 <source>timeline.exp.2012.detail.body</source>
@@ -253,7 +253,7 @@
             </trans-unit>
             <trans-unit id="timeline.edu.2007.summary">
                 <source>timeline.edu.2007.summary</source>
-                <target>211重点大学，超过一本线35分被录取，毕业于牡丹江一中。</target>
+                <target>211重点大学，毕业于牡丹江一中。</target>
             </trans-unit>
             <trans-unit id="keywords.title">
                 <source>keywords.title</source>
